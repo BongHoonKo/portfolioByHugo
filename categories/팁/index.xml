@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>팁 on DKBMC Business</title>
+    <link>http://localhost:1313/categories/%ED%8C%81/</link>
+    <description>Recent content in 팁 on DKBMC Business</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Mon, 27 May 2019 15:16:08 +0900</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/categories/%ED%8C%81/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>&#39;우아한테크코스 - 웹 백엔드&#39; 과정에 참여할 사람을 모집합니다.</title>
+      <link>http://localhost:1313/post/t3/</link>
+      <pubDate>Mon, 27 May 2019 15:16:08 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/t3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instagram에서 허위 활동을 없애기 위한 노력</title>
+      <link>http://localhost:1313/post/test3/</link>
+      <pubDate>Mon, 27 May 2019 11:17:36 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test3/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

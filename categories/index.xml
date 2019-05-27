@@ -6,25 +6,36 @@
     <description>Recent content in Categories on DKBMC Business</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Mon, 27 May 2019 15:16:53 +0900</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Development</title>
-      <link>http://localhost:1313/categories/development/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>성공사례</title>
+      <link>http://localhost:1313/categories/%EC%84%B1%EA%B3%B5%EC%82%AC%EB%A1%80/</link>
+      <pubDate>Mon, 27 May 2019 15:16:53 +0900</pubDate>
       
-      <guid>http://localhost:1313/categories/development/</guid>
+      <guid>http://localhost:1313/categories/%EC%84%B1%EA%B3%B5%EC%82%AC%EB%A1%80/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>golang</title>
-      <link>http://localhost:1313/categories/golang/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>팁</title>
+      <link>http://localhost:1313/categories/%ED%8C%81/</link>
+      <pubDate>Mon, 27 May 2019 15:16:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/categories/golang/</guid>
+      <guid>http://localhost:1313/categories/%ED%8C%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DKBMC소식</title>
+      <link>http://localhost:1313/categories/dkbmc%EC%86%8C%EC%8B%9D/</link>
+      <pubDate>Mon, 27 May 2019 14:53:22 +0900</pubDate>
+      
+      <guid>http://localhost:1313/categories/dkbmc%EC%86%8C%EC%8B%9D/</guid>
       <description></description>
     </item>
     

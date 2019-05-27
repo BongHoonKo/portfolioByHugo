@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DKBMC Business</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on DKBMC Business</description>
+    <title>성공사례 on DKBMC Business</title>
+    <link>http://localhost:1313/categories/%EC%84%B1%EA%B3%B5%EC%82%AC%EB%A1%80/</link>
+    <description>Recent content in 성공사례 on DKBMC Business</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
     <lastBuildDate>Mon, 27 May 2019 15:16:53 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/categories/%EC%84%B1%EA%B3%B5%EC%82%AC%EB%A1%80/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -22,29 +22,11 @@
     </item>
     
     <item>
-      <title>&#39;우아한테크코스 - 웹 백엔드&#39; 과정에 참여할 사람을 모집합니다.</title>
-      <link>http://localhost:1313/post/t3/</link>
-      <pubDate>Mon, 27 May 2019 15:16:08 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/t3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>로봇 개발 어떻게 해야되죠? (1/2) - AWS RoboMaker 따라하기 (ROS 어플리케이션 개발과 시뮬레이션 편)</title>
       <link>http://localhost:1313/post/t2/</link>
       <pubDate>Mon, 27 May 2019 15:10:07 +0900</pubDate>
       
       <guid>http://localhost:1313/post/t2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>목적의식 있는 연습을 통한 효과적인 학습</title>
-      <link>http://localhost:1313/post/t1/</link>
-      <pubDate>Mon, 27 May 2019 14:53:22 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/t1/</guid>
       <description></description>
     </item>
     
@@ -72,24 +54,6 @@
       <pubDate>Mon, 27 May 2019 11:20:03 +0900</pubDate>
       
       <guid>http://localhost:1313/post/test5/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Instagram에서 허위 활동을 없애기 위한 노력</title>
-      <link>http://localhost:1313/post/test3/</link>
-      <pubDate>Mon, 27 May 2019 11:17:36 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/test3/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Vogue, Instagram Stories를 활용해 9월호 완판</title>
-      <link>http://localhost:1313/post/test2/</link>
-      <pubDate>Mon, 27 May 2019 11:17:32 +0900</pubDate>
-      
-      <guid>http://localhost:1313/post/test2/</guid>
       <description></description>
     </item>
     

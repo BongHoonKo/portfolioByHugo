@@ -6,43 +6,99 @@
     <description>Recent content in Posts on DKBMC Business</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Mon, 27 May 2019 15:16:53 +0900</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>test1</title>
-      <link>http://localhost:1313/post/test1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>짧은 글</title>
+      <link>http://localhost:1313/post/t4/</link>
+      <pubDate>Mon, 27 May 2019 15:16:53 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test1/</guid>
+      <guid>http://localhost:1313/post/t4/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>test2</title>
-      <link>http://localhost:1313/post/test2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>&#39;우아한테크코스 - 웹 백엔드&#39; 과정에 참여할 사람을 모집합니다.</title>
+      <link>http://localhost:1313/post/t3/</link>
+      <pubDate>Mon, 27 May 2019 15:16:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test2/</guid>
+      <guid>http://localhost:1313/post/t3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>test3</title>
+      <title>로봇 개발 어떻게 해야되죠? (1/2) - AWS RoboMaker 따라하기 (ROS 어플리케이션 개발과 시뮬레이션 편)</title>
+      <link>http://localhost:1313/post/t2/</link>
+      <pubDate>Mon, 27 May 2019 15:10:07 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/t2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>목적의식 있는 연습을 통한 효과적인 학습</title>
+      <link>http://localhost:1313/post/t1/</link>
+      <pubDate>Mon, 27 May 2019 14:53:22 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/t1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instagram에서 비즈니스에게 아이디어를 주는 인사이트 - Facebook Community Boost 런던</title>
+      <link>http://localhost:1313/post/test6/</link>
+      <pubDate>Mon, 27 May 2019 13:52:31 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instagram 팝업 스토어: 브랜드를 생생하게 보여주는 방법</title>
+      <link>http://localhost:1313/post/test4/</link>
+      <pubDate>Mon, 27 May 2019 13:13:05 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test4/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>양방향 소통이 가능한 Instagram Stories 광고 지원</title>
+      <link>http://localhost:1313/post/test5/</link>
+      <pubDate>Mon, 27 May 2019 11:20:03 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test5/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instagram에서 허위 활동을 없애기 위한 노력</title>
       <link>http://localhost:1313/post/test3/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 27 May 2019 11:17:36 +0900</pubDate>
       
       <guid>http://localhost:1313/post/test3/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>test4</title>
-      <link>http://localhost:1313/post/test4/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Vogue, Instagram Stories를 활용해 9월호 완판</title>
+      <link>http://localhost:1313/post/test2/</link>
+      <pubDate>Mon, 27 May 2019 11:17:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test4/</guid>
+      <guid>http://localhost:1313/post/test2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Instagram 쇼핑의 새로운 기능: 결제</title>
+      <link>http://localhost:1313/post/test1/</link>
+      <pubDate>Mon, 27 May 2019 11:17:18 +0900</pubDate>
+      
+      <guid>http://localhost:1313/post/test1/</guid>
       <description></description>
     </item>
     
