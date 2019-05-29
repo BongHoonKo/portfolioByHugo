@@ -507,4 +507,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     .intro-header .post-heading.detail-heading .subheading {
         font-size: 18px !important;
     }
+    .post-heading.detail-heading .post-preview_date {
+        display: block;
+    }
 }
