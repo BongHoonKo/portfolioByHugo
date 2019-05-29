@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DKBMC소식 on DKBMC Business</title>
-    <link>http://localhost:1313/categories/dkbmc%EC%86%8C%EC%8B%9D/</link>
-    <description>Recent content in DKBMC소식 on DKBMC Business</description>
+    <title>DKBMC소식 on Business</title>
+    <link>http://BongHoonKo.github.io/categories/dkbmc%EC%86%8C%EC%8B%9D/</link>
+    <description>Recent content in DKBMC소식 on Business</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
     <lastBuildDate>Mon, 27 May 2019 14:53:22 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/categories/dkbmc%EC%86%8C%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://BongHoonKo.github.io/categories/dkbmc%EC%86%8C%EC%8B%9D/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>목적의식 있는 연습을 통한 효과적인 학습</title>
-      <link>http://localhost:1313/post/t1/</link>
+      <link>http://BongHoonKo.github.io/post/t1/</link>
       <pubDate>Mon, 27 May 2019 14:53:22 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/t1/</guid>
-      <description></description>
+      <guid>http://BongHoonKo.github.io/post/t1/</guid>
+      <description>복수 선택 Picklist 쿼리    Operator Description     = Equals the specified string.   != Does not equal the specified string.   includes Includes (contains) the specified string.   excludes Excludes (does not contain) the specified string.   ; Specifies AND for two or more strings.    SELECT Id, MSP1__c FROM CustObj__c WHERE MSP1__c = &#39;AAA;BBB&#39; SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes (&#39;AAA;BBB&#39;,&#39;CCC&#39;)  &amp;nbsp; 비교 연산자    Operator Name Description     = Equals    !</description>
     </item>
     
     <item>
       <title>Vogue, Instagram Stories를 활용해 9월호 완판</title>
-      <link>http://localhost:1313/post/test2/</link>
+      <link>http://BongHoonKo.github.io/post/test2/</link>
       <pubDate>Mon, 27 May 2019 11:17:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test2/</guid>
+      <guid>http://BongHoonKo.github.io/post/test2/</guid>
       <description></description>
     </item>
     

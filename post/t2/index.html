@@ -10,18 +10,26 @@
     <meta name="author" content="[Yong-Jin]">
     <meta name="keywords" content="">
 
+    <meta name="theme-color" content="#ffffff">
+    <meta property="og:title" content="DKBMC 비즈니스 블로그"/>
+    <meta property="og:description" content="DKBMC 비즈니스 블로그입니다."/>
+    
+    
 
-    <title>로봇 개발 어떻게 해야되죠? (1/2) - AWS RoboMaker 따라하기 (ROS 어플리케이션 개발과 시뮬레이션 편) -- DKBMC Business</title>
+    <title>DKBMC 비즈니스 블로그</title>
+
+    <link rel="icon" type="image/png" sizes="32x32" href="http://BongHoonKo.github.io//img/favicon-32x32.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="http://BongHoonKo.github.io//img/apple-icon-57x57.png">
 
     
 
     
-    <link href="http://localhost:1313//css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://BongHoonKo.github.io//css/bootstrap.min.css" rel="stylesheet">
 
     
-    <link href="http://localhost:1313//css/clean-blog.min.css" rel="stylesheet">
-    <link href="http://localhost:1313//css/font.css" rel="stylesheet"/>
-    <link href="http://localhost:1313//css/custom.css" rel="stylesheet"/>
+    <link href="http://BongHoonKo.github.io//css/clean-blog.min.css" rel="stylesheet">
+    <link href="http://BongHoonKo.github.io//css/font.css" rel="stylesheet"/>
+    <link href="http://BongHoonKo.github.io//css/custom.css" rel="stylesheet"/>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -45,7 +53,7 @@
                     <span class="icon-bar"></span>
                 </button>
                 
-                <a class="navbar-brand" href="http://localhost:1313/"><img class="logo-img" src="http://localhost:1313//img/dkbmc-logo-1.png" alt="DKBMC"/> Business</a>
+                <a class="navbar-brand" href="http://BongHoonKo.github.io/"><img class="logo-img" src="http://BongHoonKo.github.io//img/dkbmc-logo-1.png" alt="DKBMC"/> Business</a>
             </div>
 
                        
@@ -71,34 +79,31 @@
 
     
     
-    <header class="intro-header" style="background-image: url('http://localhost:1313///img/about-bg.jpg')">
+    <header class="post-header intro-header " style="background-image: url('http://BongHoonKo.github.io//img/post-bg2-1.jpg');">
       
       <div class="container">
         <div class="row">
-           <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-             <div class="post-heading">
+           <div class="col-lg-12 col-md-12">
+             <div class="post-heading detail-heading">
                <h1>로봇 개발 어떻게 해야되죠? (1/2) - AWS RoboMaker 따라하기 (ROS 어플리케이션 개발과 시뮬레이션 편)</h1>
                <h2 class="subheading">AWS RoboMaker를 사용해 ROS 어플리케이션 개발부터 시뮬레이션, Fleet 관리, OTA 배포까지 쭉~ 따라 해봅니다.</h2>
-               <span class="meta">
-                 
-Mon, May 27, 2019
-<span class="author-name">Yong-Jin</span>
-<br />
-
-
-
-               </span>
+               <hr class="small" style="border-color: #176db5;"/>
+               <span class="post-preview_date"><b>Mon, May 27, 2019</b></span>
+               <span style="color:#fff;font-size: 1.65rem;">written by</span>
+                <a href="#" class="author">
+                <span>Yong-Jin</span>
+                </a>
+               
              </div>
            </div>
         </div>
       </div>
     </header>
-
     
-    <article>
+    <article class="content-line">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 p-horizontal">
                   <!-- 게시글 내용 -->
 
                   
@@ -107,9 +112,11 @@ Mon, May 27, 2019
 
                 </div>
             </div>
+            
         </div>
-    </article>
 
+        
+    </article>
 <hr>
 
 <footer>
@@ -119,7 +126,7 @@ Mon, May 27, 2019
         <ul class="list-inline text-center">
           <li>
             <a class="dkhome-link" href="http://www.dkbmc.com/" target="_blank" title="DKBMC 홈페이지"
-              style="background-image:url('http://localhost:1313//img/ico-cloud.png');"></a>
+              style="background-image:url('http://BongHoonKo.github.io//img/ico-cloud.png');"></a>
           </li>
           
           
@@ -149,54 +156,61 @@ Mon, May 27, 2019
     </div>
   </div>
 </footer>
+<div id="loading">
+  <div class="loader"></div>
+</div>
 
 
-<script src="http://localhost:1313//js/jquery.min.js"></script>
+<script src="http://BongHoonKo.github.io//js/jquery.min.js"></script>
 
 
-<script src="http://localhost:1313//js/bootstrap.min.js"></script>
+<script src="http://BongHoonKo.github.io//js/bootstrap.min.js"></script>
 
 
-<script src="http://localhost:1313//js/clean-blog.js"></script>
+<script src="http://BongHoonKo.github.io//js/clean-blog.js"></script>
 
 <script>
-  $(window).on("load resize", function () {
-    $(".dimmer").fadeOut(300);
-    var $box3np1 = $(".post-preview:nth-of-type(3n+1)");
-    var $box3np2 = $(".post-preview:nth-of-type(3n+2)");
-    var $box3n = $(".post-preview:nth-of-type(3n)");
-    var height1 = $box3np1.eq(0).outerHeight();
-    var height2 = $box3np2.eq(0).outerHeight();
-    var height3 = $box3n.eq(0).outerHeight();
-    for (var i = 1; i < $box3np1.length; i++) {
-      var prevHeight = 0;
-      $box3np1.eq(i).prevAll(".post-preview:nth-of-type(3n+1)").each(function () {
-        prevHeight += $(this).outerHeight();
-      });
-      $box3np1.eq(i).css("top", prevHeight + "px");
-      height1 += $box3np1.eq(i).outerHeight();
-    }
-    for (var i = 1; i < $box3np2.length; i++) {
-      height2 = $box3np2.eq(0).outerHeight();
-      var prevHeight = 0;
-      $box3np2.eq(i).prevAll(".post-preview:nth-of-type(3n+2)").each(function () {
-        prevHeight += $(this).outerHeight();
-      });
-      $box3np2.eq(i).css("top", prevHeight + "px");
-      height2 += $box3np2.eq(i).outerHeight();
-    }
-    for (var i = 1; i < $box3n.length; i++) {
-      height3 = $box3n.eq(0).outerHeight();
-      var prevHeight = 0;
-      $box3n.eq(i).prevAll(".post-preview:nth-of-type(3n)").each(function () {
-        prevHeight += $(this).outerHeight();
-      });
-      $box3n.eq(i).css("top", prevHeight + "px");
-      height3 += $box3n.eq(i).outerHeight();
-    }
-    var maxHeight = Math.max(height1, height2, height3);
-    $(".post-row").css("height", maxHeight + 20 + "px");
+  $(document).ready(function () {
+     
+    var previewImg = $(".post-preview__container .post-thumb__img");
+    previewImg.each(function () {
+      var thisSrc = $(this).attr("src");
+      if (thisSrc == "") {
+        $(this).closest(".post-preview__container").children(".post-preview__wrap").css("padding-top", "30px");
+        $(this).hide().remove();
+      }
+    });
   });
+
+  $(window).on("load resize", function () {
+    setTimeout(function(){
+      postAlign();
+    },100);
+     
+    $("#loading").delay(500).fadeOut(500);
+  });
+
+   
+  function postAlign() {
+    var heightArray = [];
+    for (var i = 0; i < 3; i++) {
+      var $box = $(".post-preview:nth-of-type(3n+" + i + ")");
+      var boxHeight = $box.eq(0).outerHeight();
+      var boxTarget = ".post-preview:nth-of-type(3n+" + i + ")";
+      for (var n = 1; n < $box.length; n++) {
+        var prevHeight = 0;
+        $box.eq(n).prevAll(boxTarget).each(function () {
+          prevHeight += $(this).outerHeight();
+        });
+        $box.eq(n).css("top", prevHeight + "px");
+        boxHeight += $box.eq(n).outerHeight();
+      }
+      heightArray.push(boxHeight);
+    }
+    
+    var maxHeight = Math.max(heightArray[0], heightArray[1], heightArray[2]);
+    $(".post-row").css("height", maxHeight + 20 + "px");
+  }
 </script>
 
 

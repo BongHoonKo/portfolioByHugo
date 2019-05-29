@@ -1,104 +1,105 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on DKBMC Business</title>
-    <link>http://localhost:1313/post/</link>
-    <description>Recent content in Posts on DKBMC Business</description>
+    <title>Posts on Business</title>
+    <link>http://BongHoonKo.github.io/post/</link>
+    <description>Recent content in Posts on Business</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
     <lastBuildDate>Mon, 27 May 2019 15:16:53 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://BongHoonKo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>짧은 글</title>
-      <link>http://localhost:1313/post/t4/</link>
+      <link>http://BongHoonKo.github.io/post/t4/</link>
       <pubDate>Mon, 27 May 2019 15:16:53 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/t4/</guid>
+      <guid>http://BongHoonKo.github.io/post/t4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>&#39;우아한테크코스 - 웹 백엔드&#39; 과정에 참여할 사람을 모집합니다.</title>
-      <link>http://localhost:1313/post/t3/</link>
+      <link>http://BongHoonKo.github.io/post/t3/</link>
       <pubDate>Mon, 27 May 2019 15:16:08 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/t3/</guid>
-      <description></description>
+      <guid>http://BongHoonKo.github.io/post/t3/</guid>
+      <description>Vogue, Instagram Stories를 활용해 9월호 완판 사람들은 Instagram Stories를 통해 삶을 다른 관점으로 바라보고, 새로운 것을 알아보며, 좋아하는 유명인과 소통할 수 있습니다. 그와 동시에 엔터테인먼트 브랜드는 비즈니스 성과를 높이면서 사람들의 관심을 유도하고 영화, TV 프로그램 또는 이벤트를 통해 흥미를 불러일으키고자 합니다. 이러한 목표를 달성하기 위해 마케터들은 점차 더 재치 있고 꾸밈없는 방식으로 Instagram Stories에 접근하여 독특하고 매력적인 콘텐츠를 만들고 있습니다.
+SXSW 2019에서 Facebook은 Vogue의 타겟 개발 분석 담당자인 Abby Sjoberg, Condé Nast의 엔터프라이즈 전략 수석 부사장인 Eden Gorcey과 함께 2,200만 명 이상의 팔로워를 확보하게끔 한 Instagram 캠페인의 대대적인 성공을 통해 잡지 판매 및 광고 수익이 어떻게 증가했는지에 대해 대화를 나눴습니다.</description>
     </item>
     
     <item>
       <title>로봇 개발 어떻게 해야되죠? (1/2) - AWS RoboMaker 따라하기 (ROS 어플리케이션 개발과 시뮬레이션 편)</title>
-      <link>http://localhost:1313/post/t2/</link>
+      <link>http://BongHoonKo.github.io/post/t2/</link>
       <pubDate>Mon, 27 May 2019 15:10:07 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/t2/</guid>
+      <guid>http://BongHoonKo.github.io/post/t2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>목적의식 있는 연습을 통한 효과적인 학습</title>
-      <link>http://localhost:1313/post/t1/</link>
+      <link>http://BongHoonKo.github.io/post/t1/</link>
       <pubDate>Mon, 27 May 2019 14:53:22 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/t1/</guid>
-      <description></description>
+      <guid>http://BongHoonKo.github.io/post/t1/</guid>
+      <description>복수 선택 Picklist 쿼리    Operator Description     = Equals the specified string.   != Does not equal the specified string.   includes Includes (contains) the specified string.   excludes Excludes (does not contain) the specified string.   ; Specifies AND for two or more strings.    SELECT Id, MSP1__c FROM CustObj__c WHERE MSP1__c = &#39;AAA;BBB&#39; SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes (&#39;AAA;BBB&#39;,&#39;CCC&#39;)  &amp;nbsp; 비교 연산자    Operator Name Description     = Equals    !</description>
     </item>
     
     <item>
       <title>Instagram에서 비즈니스에게 아이디어를 주는 인사이트 - Facebook Community Boost 런던</title>
-      <link>http://localhost:1313/post/test6/</link>
+      <link>http://BongHoonKo.github.io/post/test6/</link>
       <pubDate>Mon, 27 May 2019 13:52:31 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test6/</guid>
+      <guid>http://BongHoonKo.github.io/post/test6/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Instagram 팝업 스토어: 브랜드를 생생하게 보여주는 방법</title>
-      <link>http://localhost:1313/post/test4/</link>
+      <link>http://BongHoonKo.github.io/post/test4/</link>
       <pubDate>Mon, 27 May 2019 13:13:05 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test4/</guid>
+      <guid>http://BongHoonKo.github.io/post/test4/</guid>
       <description></description>
     </item>
     
     <item>
       <title>양방향 소통이 가능한 Instagram Stories 광고 지원</title>
-      <link>http://localhost:1313/post/test5/</link>
+      <link>http://BongHoonKo.github.io/post/test5/</link>
       <pubDate>Mon, 27 May 2019 11:20:03 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test5/</guid>
+      <guid>http://BongHoonKo.github.io/post/test5/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Instagram에서 허위 활동을 없애기 위한 노력</title>
-      <link>http://localhost:1313/post/test3/</link>
+      <link>http://BongHoonKo.github.io/post/test3/</link>
       <pubDate>Mon, 27 May 2019 11:17:36 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test3/</guid>
+      <guid>http://BongHoonKo.github.io/post/test3/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Vogue, Instagram Stories를 활용해 9월호 완판</title>
-      <link>http://localhost:1313/post/test2/</link>
+      <link>http://BongHoonKo.github.io/post/test2/</link>
       <pubDate>Mon, 27 May 2019 11:17:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test2/</guid>
+      <guid>http://BongHoonKo.github.io/post/test2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Instagram 쇼핑의 새로운 기능: 결제</title>
-      <link>http://localhost:1313/post/test1/</link>
+      <link>http://BongHoonKo.github.io/post/test1/</link>
       <pubDate>Mon, 27 May 2019 11:17:18 +0900</pubDate>
       
-      <guid>http://localhost:1313/post/test1/</guid>
+      <guid>http://BongHoonKo.github.io/post/test1/</guid>
       <description></description>
     </item>
     
