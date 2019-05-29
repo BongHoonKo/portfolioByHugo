@@ -219,7 +219,6 @@ html,body {
         font-size: 55px;
     }
 }
-
 .pagination-center {
     text-align: center;
 }
@@ -481,4 +480,31 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     font-size: 18px;
     color: #666;
     line-height: 1.65;
+}
+.content-line h1,
+.content-line h2,
+.content-line h3,
+.content-line h4,
+.content-line h5,
+.content-line h6 {
+    line-height: 1.5;
+}
+
+
+@media all and (max-width: 768px) {
+    .intro-header {
+        margin-top: 50px;
+    }
+    .intro-header.main-header .site-heading {
+        padding: 70px 0;
+    }
+    .intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading {
+        padding: 50px 0;
+    }
+    .intro-header .post-heading.detail-heading h1 {
+        font-size: 35px;
+    }
+    .intro-header .post-heading.detail-heading .subheading {
+        font-size: 18px !important;
+    }
 }
