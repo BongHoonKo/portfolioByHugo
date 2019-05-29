@@ -110,6 +110,8 @@ html,body {
 .post-preview__container {
     box-shadow: 0 0 20px rgba(0,0,0,0.1);
     transition-duration: 0.3s;
+    border-radius: 4px;
+    background-color: #fff;
     /* box-shadow: 2px 1px 16px 5px rgba(0, 0, 0, .1); */
 }
 .post-preview__container:hover {
@@ -135,7 +137,6 @@ html,body {
     position: relative;
 }
 .post-preview__wrap {
-    background-color: #fff;
     padding: 30px;
     padding-top: 15px;
     margin-bottom: 30px;
