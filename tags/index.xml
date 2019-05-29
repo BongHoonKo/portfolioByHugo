@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Business</title>
-    <link>http://BongHoonKo.github.io/tags/</link>
+    <link>https://bonghoonko.github.io/tags/</link>
     <description>Recent content in Tags on Business</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©DKBMC. All rights reserved. Powered by GitHub Pages.</copyright>
     
-	<atom:link href="http://BongHoonKo.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bonghoonko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>
