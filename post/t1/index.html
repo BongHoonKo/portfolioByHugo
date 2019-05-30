@@ -146,9 +146,8 @@
 </tbody>
 </table>
 
-<pre><code class="language-sql">SELECT Id, MSP1__c FROM CustObj__c WHERE MSP1__c = 'AAA;BBB'
-SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes ('AAA;BBB','CCC')
-</code></pre>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-sql" data-lang="sql"><span style="color:#66d9ef">SELECT</span> Id, MSP1__c <span style="color:#66d9ef">FROM</span> CustObj__c <span style="color:#66d9ef">WHERE</span> MSP1__c <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;AAA;BBB&#39;</span>
+<span style="color:#66d9ef">SELECT</span> Id, MSP1__c <span style="color:#66d9ef">from</span> CustObj__c <span style="color:#66d9ef">WHERE</span> MSP1__c includes (<span style="color:#e6db74">&#39;AAA;BBB&#39;</span>,<span style="color:#e6db74">&#39;CCC&#39;</span>)</code></pre></div>
 
 <h6 id="nbsp">&nbsp;</h6>
 
@@ -303,7 +302,10 @@ SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes ('AAA;BBB','CCC')
 
 &lt;<span style="color:#a6e22e">section</span> <span style="color:#a6e22e">class</span>=<span style="color:#e6db74">&#34;ddd&#34;</span>&gt;
     &lt;<span style="color:#a6e22e">p</span>&gt;<span style="color:#a6e22e">GOOD</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
-&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">section</span>&gt;</code></pre></div>
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">section</span>&gt;
+
+<span style="color:#a6e22e">SELECT</span> <span style="color:#a6e22e">Id</span>, <span style="color:#a6e22e">MSP1__c</span> <span style="color:#a6e22e">FROM</span> <span style="color:#a6e22e">CustObj__c</span> <span style="color:#a6e22e">WHERE</span> <span style="color:#a6e22e">MSP1__c</span> = <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">AAA</span>;<span style="color:#a6e22e">BBB</span><span style="color:#960050;background-color:#1e0010">&#39;</span>
+<span style="color:#a6e22e">SELECT</span> <span style="color:#a6e22e">Id</span>, <span style="color:#a6e22e">MSP1__c</span> <span style="color:#a6e22e">from</span> <span style="color:#a6e22e">CustObj__c</span> <span style="color:#a6e22e">WHERE</span> <span style="color:#a6e22e">MSP1__c</span> <span style="color:#a6e22e">includes</span> (<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">AAA</span>;<span style="color:#a6e22e">BBB</span><span style="color:#e6db74">&#39;,&#39;</span><span style="color:#a6e22e">CCC</span><span style="color:#960050;background-color:#1e0010">&#39;</span>)</code></pre></div>
 
                   
    

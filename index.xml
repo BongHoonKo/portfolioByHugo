@@ -46,7 +46,7 @@ SXSW 2019에서 Facebook은 Vogue의 타겟 개발 분석 담당자인 Abby Sjob
       <pubDate>Mon, 27 May 2019 14:53:22 +0900</pubDate>
       
       <guid>https://bonghoonko.github.io/post/t1/</guid>
-      <description>복수 선택 Picklist 쿼리    Operator Description     = Equals the specified string.   != Does not equal the specified string.   includes Includes (contains) the specified string.   excludes Excludes (does not contain) the specified string.   ; Specifies AND for two or more strings.    SELECT Id, MSP1__c FROM CustObj__c WHERE MSP1__c = &#39;AAA;BBB&#39; SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes (&#39;AAA;BBB&#39;,&#39;CCC&#39;)  &amp;nbsp; 비교 연산자    Operator Name Description     = Equals    !</description>
+      <description>복수 선택 Picklist 쿼리    Operator Description     = Equals the specified string.   != Does not equal the specified string.   includes Includes (contains) the specified string.   excludes Excludes (does not contain) the specified string.   ; Specifies AND for two or more strings.    SELECT Id, MSP1__c FROM CustObj__c WHERE MSP1__c = &amp;#39;AAA;BBB&amp;#39; SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes (&amp;#39;AAA;BBB&amp;#39;,&amp;#39;CCC&amp;#39;) &amp;nbsp; 비교 연산자    Operator Name Description     = Equals    !</description>
     </item>
     
     <item>
