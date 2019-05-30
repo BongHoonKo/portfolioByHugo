@@ -99,7 +99,7 @@
     <div class="container pagination-center">
       <div class="row post-row">
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-lg-4 col-md-6">
     <div class="post-preview__container">
       
       <a href="https://bonghoonko.github.io/post/t1/" class="preview-img__a">
@@ -128,7 +128,7 @@ Mon, May 27, 2019
   </div>
 
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-lg-4 col-md-6">
     <div class="post-preview__container">
       
       <a href="https://bonghoonko.github.io/post/test2/" class="preview-img__a">
@@ -163,6 +163,9 @@ Mon, May 27, 2019
     </div>
 
 <hr>
+<button class="btn-top" onclick="moveTop()">
+  <img src="https://bonghoonko.github.io//img/btn-top.png" alt="TOP"/>
+</button>
 
 <footer>
   <div class="container">
@@ -196,7 +199,7 @@ Mon, May 27, 2019
           
           
         </ul>
-        <p class="copyright text-muted">©DKBMC. All rights reserved. Powered by GitHub Pages.</p>
+        <p class="copyright text-muted">©DK BMC. All rights reserved. Powered by GitHub Pages.</p>
       </div>
     </div>
   </div>
@@ -215,18 +218,34 @@ Mon, May 27, 2019
 <script src="https://bonghoonko.github.io//js/clean-blog.js"></script>
 
 <script>
-  $(document).ready(function () {
-    removePreviewImg();
-  });
 
+  removePreviewImg();
   $(window).on("load resize", function () {
-    setTimeout(function(){
-      postAlign();
-    },100);
+    var winWidth = window.innerWidth;
+    if(winWidth <= 1199) {
+      setTimeout(function(){
+        postAlign(2);
+      },200);
+    }
+    else {
+      setTimeout(function(){
+        postAlign(3);
+      },200);
+    }
      
     $("#loading").delay(500).fadeOut(500);
   });
 
+   
+  $(document).on("ready scroll",function(){
+    var scrollTop = $(document).scrollTop();
+    if(scrollTop >= 300) {
+      $(".btn-top").stop().fadeIn(200);
+    }
+    else {
+      $(".btn-top").stop().fadeOut(200);
+    }
+  });
 
    
   function removePreviewImg() {
@@ -240,15 +259,20 @@ Mon, May 27, 2019
     });
   }
 
+
+  function moveTop() {
+    $("html,body").animate({"scrollTop":0},200);
+    $("html,body").scrollTop(0);
+  }
    
-  function postAlign() {
+  function postAlign(num) {
     var heightArray = [];
-    for (var i = 0; i < 3; i++) {
-      var $box = $(".post-preview:nth-of-type(3n+" + i + ")");
-      var boxTarget = ".post-preview:nth-of-type(3n+" + i + ")";
+    for (var i = 0; i < num ; i++) {
+      var $box = $(".post-preview:nth-of-type("+ num +"n+" + i + ")");
+      var boxTarget = ".post-preview:nth-of-type("+ num +"n+" + i + ")";
       if( i === 0 ) {
-        $box = $(".post-preview:nth-of-type(3n)");
-        boxTarget = ".post-preview:nth-of-type(3n)";
+        $box = $(".post-preview:nth-of-type("+ num +"n)");
+        boxTarget = ".post-preview:nth-of-type("+ num +"n)";
       }
       var boxHeight = $box.eq(0).outerHeight();
       for (var n = 1; n < $box.length; n++) {
@@ -259,10 +283,10 @@ Mon, May 27, 2019
         $box.eq(n).css("top", prevHeight + "px");
         boxHeight += $box.eq(n).outerHeight();
       }
+      $box.eq(0).css("top", 0);
       heightArray.push(boxHeight);
     }
-    
-    var maxHeight = Math.max(heightArray[0], heightArray[1], heightArray[2]);
+    var maxHeight = Math.max.apply(null, heightArray);
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
 </script>
