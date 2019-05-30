@@ -185,10 +185,10 @@
   $(document).on("ready scroll",function(){
     var scrollTop = $(document).scrollTop();
     if(scrollTop >= 300) {
-      $(".btn-top").stop().fadeIn(200);
+      $(".btn-top").addClass("active");
     }
     else {
-      $(".btn-top").stop().fadeOut(200);
+      $(".btn-top").removeClass("active");
     }
   });
 

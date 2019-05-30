@@ -260,6 +260,51 @@ SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes ('AAA;BBB','CCC')
 </tbody>
 </table>
 
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-go" data-lang="go"><span style="color:#a6e22e">trigger</span> <span style="color:#a6e22e">myAccountTrigger</span> <span style="color:#a6e22e">on</span> <span style="color:#a6e22e">Account</span>(<span style="color:#a6e22e">before</span> <span style="color:#a6e22e">delete</span>, <span style="color:#a6e22e">before</span> <span style="color:#a6e22e">insert</span>, <span style="color:#a6e22e">before</span> <span style="color:#a6e22e">update</span>,
+                                    <span style="color:#a6e22e">after</span> <span style="color:#a6e22e">delete</span>, <span style="color:#a6e22e">after</span> <span style="color:#a6e22e">insert</span>, <span style="color:#a6e22e">after</span> <span style="color:#a6e22e">update</span>) {
+<span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">isBefore</span>) {
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">isDelete</span>) {
+        <span style="color:#75715e">// In a before deletetrigger, the trigger accesses the records that will be
+</span><span style="color:#75715e"></span>        <span style="color:#75715e">// deleted with the Trigger.old list.
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">Account</span> <span style="color:#a6e22e">a</span> : <span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">old</span>) {
+            <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">!=</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">okToDelete</span><span style="color:#960050;background-color:#1e0010">&#39;</span>) {
+                <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">addError</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">You</span> <span style="color:#a6e22e">can</span> <span style="color:#a6e22e">not</span> <span style="color:#a6e22e">delete</span> <span style="color:#a6e22e">this</span> <span style="color:#a6e22e">record</span>!<span style="color:#960050;background-color:#1e0010">&#39;</span>);
+            }
+        }
+    } <span style="color:#66d9ef">else</span> {
+    <span style="color:#75715e">// Inbeforeinsertorbeforeupdate triggers, the trigger accesses the new records
+</span><span style="color:#75715e"></span>    <span style="color:#75715e">// with the Trigger.new list.
+</span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">Account</span> <span style="color:#a6e22e">a</span> : <span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">new</span>) {
+            <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">name</span> <span style="color:#f92672">==</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">bad</span><span style="color:#960050;background-color:#1e0010">&#39;</span>) {
+                <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">name</span>.<span style="color:#a6e22e">addError</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">Bad</span> <span style="color:#a6e22e">name</span><span style="color:#960050;background-color:#1e0010">&#39;</span>);
+            }
+    }
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">isInsert</span>) {
+        <span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">Account</span> <span style="color:#a6e22e">a</span> : <span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">new</span>) {
+            <span style="color:#a6e22e">System</span>.<span style="color:#a6e22e">assertEquals</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">xxx</span><span style="color:#960050;background-color:#1e0010">&#39;</span>, <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">accountNumber</span>);
+            <span style="color:#a6e22e">System</span>.<span style="color:#a6e22e">assertEquals</span>(<span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">industry</span><span style="color:#960050;background-color:#1e0010">&#39;</span>, <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">industry</span>);
+            <span style="color:#a6e22e">System</span>.<span style="color:#a6e22e">assertEquals</span>(<span style="color:#ae81ff">100</span>, <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">numberofemployees</span>);
+            <span style="color:#a6e22e">System</span>.<span style="color:#a6e22e">assertEquals</span>(<span style="color:#ae81ff">100.0</span>, <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">annualrevenue</span>);
+            <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">accountNumber</span> = <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">yyy</span><span style="color:#960050;background-color:#1e0010">&#39;</span>;
+        }
+<span style="color:#75715e">// If the triggerisnot a beforetrigger, it must be an aftertrigger.
+</span><span style="color:#75715e"></span>} <span style="color:#66d9ef">else</span> {
+    <span style="color:#66d9ef">if</span> (<span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">isInsert</span>) {
+        <span style="color:#a6e22e">List</span>&lt;<span style="color:#a6e22e">Contact</span>&gt; <span style="color:#a6e22e">contacts</span> = <span style="color:#a6e22e">new</span> <span style="color:#a6e22e">List</span>&lt;<span style="color:#a6e22e">Contact</span>&gt;();
+        <span style="color:#66d9ef">for</span> (<span style="color:#a6e22e">Account</span> <span style="color:#a6e22e">a</span> : <span style="color:#a6e22e">Trigger</span>.<span style="color:#a6e22e">new</span>) {       
+            <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">Name</span> <span style="color:#f92672">==</span> <span style="color:#960050;background-color:#1e0010">&#39;</span><span style="color:#a6e22e">makeContact</span><span style="color:#960050;background-color:#1e0010">&#39;</span>) {
+                <span style="color:#a6e22e">contacts</span>.<span style="color:#a6e22e">add</span>(<span style="color:#a6e22e">new</span> <span style="color:#a6e22e">Contact</span> (<span style="color:#a6e22e">LastName</span> = <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">Name</span>, <span style="color:#a6e22e">AccountId</span> = <span style="color:#a6e22e">a</span>.<span style="color:#a6e22e">Id</span>));
+            }
+        }
+      <span style="color:#a6e22e">insert</span> <span style="color:#a6e22e">contacts</span>;
+    }
+  }
+}}}
+
+&lt;<span style="color:#a6e22e">section</span> <span style="color:#a6e22e">class</span>=<span style="color:#e6db74">&#34;ddd&#34;</span>&gt;
+    &lt;<span style="color:#a6e22e">p</span>&gt;<span style="color:#a6e22e">GOOD</span>&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">p</span>&gt;
+&lt;<span style="color:#f92672">/</span><span style="color:#a6e22e">section</span>&gt;</code></pre></div>
+
                   
    
 
@@ -271,6 +316,14 @@ SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes ('AAA;BBB','CCC')
 
         
     </article>
+    <hr/>
+    <script src="https://utteranc.es/client.js"
+    repo="BongHoonKo/business-comment"
+    issue-term="pathname"
+    theme="github-light"
+    crossorigin="anonymous"
+    async>
+</script>
 <hr>
 <button class="btn-top" onclick="moveTop()">
   <img src="https://bonghoonko.github.io//img/btn-top.png" alt="TOP"/>
@@ -349,10 +402,10 @@ SELECT Id, MSP1__c from CustObj__c WHERE MSP1__c includes ('AAA;BBB','CCC')
   $(document).on("ready scroll",function(){
     var scrollTop = $(document).scrollTop();
     if(scrollTop >= 300) {
-      $(".btn-top").stop().fadeIn(200);
+      $(".btn-top").addClass("active");
     }
     else {
-      $(".btn-top").stop().fadeOut(200);
+      $(".btn-top").removeClass("active");
     }
   });
 
