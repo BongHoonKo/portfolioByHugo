@@ -171,7 +171,20 @@
 
 <script>
   $(document).ready(function () {
+    removePreviewImg();
+  });
+
+  $(window).on("load resize", function () {
+    setTimeout(function(){
+      postAlign();
+    },100);
      
+    $("#loading").delay(500).fadeOut(500);
+  });
+
+
+   
+  function removePreviewImg() {
     var previewImg = $(".post-preview__container .post-thumb__img");
     previewImg.each(function () {
       var thisSrc = $(this).attr("src");
@@ -180,23 +193,19 @@
         $(this).hide().remove();
       }
     });
-  });
-
-  $(window).on("load resize", function () {
-    setTimeout(function(){
-      postAlign();
-    },300);
-     
-    $("#loading").delay(500).fadeOut(500);
-  });
+  }
 
    
   function postAlign() {
     var heightArray = [];
     for (var i = 0; i < 3; i++) {
       var $box = $(".post-preview:nth-of-type(3n+" + i + ")");
-      var boxHeight = $box.eq(0).outerHeight();
       var boxTarget = ".post-preview:nth-of-type(3n+" + i + ")";
+      if( i === 0 ) {
+        $box = $(".post-preview:nth-of-type(3n)");
+        boxTarget = ".post-preview:nth-of-type(3n)";
+      }
+      var boxHeight = $box.eq(0).outerHeight();
       for (var n = 1; n < $box.length; n++) {
         var prevHeight = 0;
         $box.eq(n).prevAll(boxTarget).each(function () {

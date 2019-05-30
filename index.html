@@ -126,7 +126,7 @@
       <div class="row post-row" style="position:relative;">
           
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/t4/" class="preview-img__a">
@@ -154,7 +154,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/t3/" class="preview-img__a">
@@ -182,7 +182,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/t2/" class="preview-img__a">
@@ -210,7 +210,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/t1/" class="preview-img__a">
@@ -238,7 +238,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/test6/" class="preview-img__a">
@@ -266,7 +266,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/test4/" class="preview-img__a">
@@ -294,7 +294,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/test5/" class="preview-img__a">
@@ -322,7 +322,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/test3/" class="preview-img__a">
@@ -350,7 +350,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/test2/" class="preview-img__a">
@@ -378,7 +378,7 @@ Mon, May 27, 2019
   </div>
 </div>
           
-              <div class="post-preview col-lg-4">
+              <div class="post-preview col-md-4">
   <div class="post-preview__container">
     
     <a href="https://bonghoonko.github.io/post/test1/" class="preview-img__a">
@@ -469,7 +469,20 @@ Mon, May 27, 2019
 
 <script>
   $(document).ready(function () {
+    removePreviewImg();
+  });
+
+  $(window).on("load resize", function () {
+    setTimeout(function(){
+      postAlign();
+    },100);
      
+    $("#loading").delay(500).fadeOut(500);
+  });
+
+
+   
+  function removePreviewImg() {
     var previewImg = $(".post-preview__container .post-thumb__img");
     previewImg.each(function () {
       var thisSrc = $(this).attr("src");
@@ -478,23 +491,19 @@ Mon, May 27, 2019
         $(this).hide().remove();
       }
     });
-  });
-
-  $(window).on("load resize", function () {
-    setTimeout(function(){
-      postAlign();
-    },300);
-     
-    $("#loading").delay(500).fadeOut(500);
-  });
+  }
 
    
   function postAlign() {
     var heightArray = [];
     for (var i = 0; i < 3; i++) {
       var $box = $(".post-preview:nth-of-type(3n+" + i + ")");
-      var boxHeight = $box.eq(0).outerHeight();
       var boxTarget = ".post-preview:nth-of-type(3n+" + i + ")";
+      if( i === 0 ) {
+        $box = $(".post-preview:nth-of-type(3n)");
+        boxTarget = ".post-preview:nth-of-type(3n)";
+      }
+      var boxHeight = $box.eq(0).outerHeight();
       for (var n = 1; n < $box.length; n++) {
         var prevHeight = 0;
         $box.eq(n).prevAll(boxTarget).each(function () {
