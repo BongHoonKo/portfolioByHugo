@@ -29,6 +29,12 @@ html,body {
     background-color: $white;
     box-shadow: 0 0 15px rgba(0,0,0,0.3);
     z-index: 10;
+    position: fixed;
+    top: 0 !important;
+    left: 0;
+    transform: none !important;
+    z-index: 1030;
+
     .navbar-brand {
         color: $gray;
         &:hover, &:focus {
