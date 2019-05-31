@@ -40,7 +40,7 @@ br {
     z-index: 1030;
 
     .navbar-brand {
-        color: $gray;
+        color: $gray !important;
         &:hover, &:focus {
             color: $gray !important;
         }

@@ -31,7 +31,7 @@ br {
 }
 
 .navbar-custom .navbar-brand {
-  color: #777;
+  color: #777 !important;
 }
 
 .navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
