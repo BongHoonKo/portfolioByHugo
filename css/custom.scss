@@ -422,43 +422,8 @@ a:hover, a:focus {
 }
 
 
-/* TABLE */
-table {
-    background: $white;
-    margin: 20px 0 30px 0;
-    border-collapse: collapse;
-    border: 1px solid #f9f9f9;
-}
-th {
-    padding: 10px 20px;
-    font-size: 16px;
-    font-weight: bold;
-    border: 1px solid #ccc;
-    border-bottom: 2px solid $main-color;
-}
-tr {
-    background: $white;
-}
-table tbody tr td, table tbody tr td {
-    min-width: 40px;
-    padding: 10px 20px;
-    font-size: 0.75em;
-    letter-spacing: 0;
-    border: 1px solid #ccc;
-    font-weight: 400;
-    color: $dgray;
-}
-
-table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
-    background-color: #f7f7f7;
-}
-
-
 /* loader */
 #loading {
-    // display:flex;
-    // align-items:center;
-    // justify-content:center;
     width:100%;
     height:100%;
     position:fixed;
@@ -479,7 +444,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     width: 11em;
     height: 11em;
     border-radius: 50%;
-    background: #ffffff;
+    background: $white;
     background: -moz-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
     background: -webkit-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
     background: -o-linear-gradient(left, #ffffff 10%, rgba(255, 255, 255, 0) 42%);
@@ -491,29 +456,29 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     -webkit-transform: translateZ(0);
     -ms-transform: translateZ(0);
     transform: translateZ(0);
-  }
-  .loader:before {
-    width: 50%;
-    height: 50%;
-    background: #ffffff;
-    border-radius: 100% 0 0 0;
-    position: absolute;
-    top: 0;
-    left: 0;
-    content: '';
-  }
-  .loader:after {
-    background: #eaeaea;
-    width: 75%;
-    height: 75%;
-    border-radius: 50%;
-    content: '';
-    margin: auto;
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
+    &::before {
+        content: "";
+        width: 50%;
+        height: 50%;
+        background: $white;
+        border-radius: 100% 0 0 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+    &::after {
+        content: "";
+        width: 75%;
+        height: 75%;
+        border-radius: 50%;
+        margin: auto;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: #eaeaea;
+    }
   }
   @-webkit-keyframes load3 {
     0% {
@@ -562,17 +527,47 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
           font-weight: normal;
           line-height: 1.65;
       }
-      h1,h2,h3,h4,h5,h6 {
+      h1, h2, h3, h4, h5, h6 {
           line-height: 1.5;
       }
       hr {
           border-width: 2px;
           border-color: $main-color;
       }
+
+      /* TABLE */
+      table {
+          background: $white;
+          margin: 20px 0 30px 0;
+          border-collapse: collapse;
+          border: 1px solid #f9f9f9;
+          th {
+              padding: 10px 20px;
+              font-size: 16px;
+              font-weight: bold;
+              border: 1px solid #ccc;
+              border-bottom: 2px solid $main-color;
+          }
+          tr {
+              background: $white;
+          }
+          tbody tr td {
+            min-width: 40px;
+            padding: 10px 20px;
+            font-size: 0.75em;
+            letter-spacing: 0;
+            border: 1px solid #ccc;
+            font-weight: 400;
+            color: $dgray;
+          }
+      }
+
+      table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
+          background-color: #f7f7f7;
+      }
   }
 
-
-/* Footer DKBMC 홈페이지 링크 */
+/* TOP Button */
 .btn-top {
     display: none;
     position: fixed;
@@ -600,6 +595,8 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
         }
     }
 }
+
+/* Footer DKBMC 홈페이지 링크 */
 .dkhome-link {
     position: relative;
     display: inline-block;
