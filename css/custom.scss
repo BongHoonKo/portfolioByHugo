@@ -58,7 +58,7 @@ br {
     /* Header */
     .intro-header {
         margin-top: 60px;
-        @media all and (max-width: 768px) {
+        @media all and (max-width: 767px) {
             margin-top: 50px;
         }
         hr.small {
@@ -75,7 +75,7 @@ br {
             .site-heading {
                 background-color: transparent;
                 padding: 170px 0;
-                @media all and (max-width: 768px) {
+                @media all and (max-width: 767px) {
                     padding: 120px 0;
                 }
                 h1 {
@@ -92,13 +92,13 @@ br {
         .site-heading {
             &.list-heading {
                 padding: 150px 0;
-                @media all and (max-width: 768px) {
+                @media all and (max-width: 767px) {
                     padding: 70px 0;
                 }
                 h1 {
                     font-size: 5.5rem;
                     text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
-                    @media all and (max-width: 768px) {
+                    @media all and (max-width: 767px) {
                         font-size: 4rem;
                     }
                 }
@@ -110,14 +110,14 @@ br {
 
         &.post-header {
             padding: 6rem 0 0;
-            @media all and (max-width: 768px) {
+            @media all and (max-width: 767px) {
                 padding: 0;
             }
             .post-heading {
                 &.detail-heading {
                     padding: 80px 150px;
                     background-color: rgba(255,255,255,0.25);
-                    @media all and (max-width: 768px) {
+                    @media all and (max-width: 767px) {
                         padding: 50px 0;
                         background-color: transparent;
                     }
@@ -125,7 +125,7 @@ br {
                         font-size: 4.5rem;
                         text-shadow: 3px 3px 10px rgba(0,0,0,0.5);
                         margin-bottom: 30px;
-                        @media all and (max-width: 768px) {
+                        @media all and (max-width: 767px) {
                             font-size: 3.5rem;
                         }
                     }
@@ -133,13 +133,13 @@ br {
                         font-size: 2rem;
                         line-height: 1.35;
                         font-weight: 300;
-                        @media all and (max-width: 768px) {
+                        @media all and (max-width: 767px) {
                             font-size: 1.8rem;
                         }
                     }
                     .post-preview_date {
                         font-size: 1.8rem;
-                        @media all and (max-width: 768px) {
+                        @media all and (max-width: 767px) {
                             display: block;
                         }
                     }
@@ -582,13 +582,22 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
     border: 0;
     outline: 0;
     opacity: 0.9;
+    padding: 0;
     z-index: 2000;
     &.active {
         display: block;
     }
-    @media all and (max-width: 768px) {
-        right: 10px;
-        bottom: 10px;
+    img {
+        width: 6rem;
+        height: 6rem;
+    }
+    @media all and (max-width: 767px) {
+        right: 15px;
+        bottom: 15px;
+        img {
+            width: 4.5rem;
+            height: 4.5rem;
+        }
     }
 }
 .dkhome-link {

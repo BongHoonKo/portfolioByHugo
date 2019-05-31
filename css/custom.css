@@ -53,7 +53,7 @@ br {
   margin-top: 60px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header {
     margin-top: 50px;
   }
@@ -75,7 +75,7 @@ br {
   padding: 170px 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header.main-header .site-heading {
     padding: 120px 0;
   }
@@ -95,7 +95,7 @@ br {
   padding: 150px 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header .site-heading.list-heading {
     padding: 70px 0;
   }
@@ -106,7 +106,7 @@ br {
   text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header .site-heading.list-heading h1 {
     font-size: 4rem;
   }
@@ -120,7 +120,7 @@ br {
   padding: 6rem 0 0;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header.post-header {
     padding: 0;
   }
@@ -131,7 +131,7 @@ br {
   background-color: rgba(255, 255, 255, 0.25);
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header.post-header .post-heading.detail-heading {
     padding: 50px 0;
     background-color: transparent;
@@ -144,7 +144,7 @@ br {
   margin-bottom: 30px;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header.post-header .post-heading.detail-heading h1 {
     font-size: 3.5rem;
   }
@@ -156,7 +156,7 @@ br {
   font-weight: 300;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header.post-header .post-heading.detail-heading .subheading {
     font-size: 1.8rem;
   }
@@ -166,7 +166,7 @@ br {
   font-size: 1.8rem;
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 767px) {
   .intro-header.post-header .post-heading.detail-heading .post-preview_date {
     display: block;
   }
@@ -647,6 +647,7 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
   border: 0;
   outline: 0;
   opacity: 0.9;
+  padding: 0;
   z-index: 2000;
 }
 
@@ -654,10 +655,19 @@ table tbody tr:nth-child(even), table tbody tr:nth-child(even) {
   display: block;
 }
 
-@media all and (max-width: 768px) {
+.btn-top img {
+  width: 6rem;
+  height: 6rem;
+}
+
+@media all and (max-width: 767px) {
   .btn-top {
-    right: 10px;
-    bottom: 10px;
+    right: 15px;
+    bottom: 15px;
+  }
+  .btn-top img {
+    width: 4.5rem;
+    height: 4.5rem;
   }
 }
 
