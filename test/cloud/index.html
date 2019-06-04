@@ -213,16 +213,15 @@
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
 
-  var headTitle = $(".list-heading h1").text();
-  var $con = $(".sub-container");
-  var $hd = $(".sub-header");
+  var headTitle = $(".m-header .list-heading h1").text();
+  console.log(headTitle);
+  var $con = $(".sub-container, .sub-container-header, .sub-header");
   if(headTitle !== "Posts") {
-    $(".main-container, .m-header").remove();
+    $(".main-container, .m-header, .m-container-header").remove();
     $con.show();
   }
   else {
     $con.remove();
-    $hd.remove();
   }  
 </script>
 

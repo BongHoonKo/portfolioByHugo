@@ -99,6 +99,38 @@
   </div>
 </header>
 
+<div class="container-header m-container-header container">
+    <div class="row">
+      <div class="col-sm-12">
+          <p class="recent-post">Recent Posts</p>
+          <div class="category-filter__wrap">
+            <div class="category-filter__txt" style="background-image:url('https://bonghoonko.github.io//img/ico-down.png');">Category
+                <ul class="category-list">
+                  <div></div>
+                    
+                        
+                            <li style="list-style:none;"><a href="/categories/%EC%84%B1%EA%B3%B5%EC%82%AC%EB%A1%80/"> - 성공사례 <small>(5)</small></a></li>
+                        
+                    
+                        
+                            <li style="list-style:none;"><a href="/categories/dkbmc%EC%86%8C%EC%8B%9D/"> - Dkbmc소식 <small>(2)</small></a></li>
+                        
+                    
+                        
+                            <li style="list-style:none;"><a href="/categories/tip/"> - Tip <small>(2)</small></a></li>
+                        
+                    
+                        
+                            <li style="list-style:none;"><a href="/categories/test/"> - Test <small>(1)</small></a></li>
+                        
+                    
+                </ul>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
 
 <div class="container pagination-center main-container">
   <div class="row post-row">
@@ -165,6 +197,7 @@ Mon, May 27, 2019
   
 
 </div>
+
 
 
 
@@ -393,16 +426,15 @@ Mon, May 27, 2019
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
 
-  var headTitle = $(".list-heading h1").text();
-  var $con = $(".sub-container");
-  var $hd = $(".sub-header");
+  var headTitle = $(".m-header .list-heading h1").text();
+  console.log(headTitle);
+  var $con = $(".sub-container, .sub-container-header, .sub-header");
   if(headTitle !== "Posts") {
-    $(".main-container, .m-header").remove();
+    $(".main-container, .m-header, .m-container-header").remove();
     $con.show();
   }
   else {
     $con.remove();
-    $hd.remove();
   }  
 </script>
 
