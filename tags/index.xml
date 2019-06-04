@@ -7,9 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>©DK BMC. All rights reserved. Powered by GitHub Pages.</copyright>
+    <lastBuildDate>Tue, 04 Jun 2019 10:38:35 +0900</lastBuildDate>
     
 	<atom:link href="https://bonghoonko.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Resource</title>
+      <link>https://bonghoonko.github.io/tags/resource/</link>
+      <pubDate>Tue, 04 Jun 2019 10:38:35 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/tags/resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Solution &amp; Service</title>
+      <link>https://bonghoonko.github.io/tags/solution-service/</link>
+      <pubDate>Tue, 04 Jun 2019 10:18:48 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/tags/solution-service/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -71,6 +71,10 @@
                         <a href="/post/">Posts</a>
                     </li>
                     
+                    <li>
+                        <a href="/test/">TEST</a>
+                    </li>
+                    
                   </ul>
             </div>
            
@@ -80,26 +84,26 @@
     </nav>
 
 
-    
-    <header class="intro-header" style="background-image: url('https://bonghoonko.github.io//img/post-bg-1.jpg')">
-     <div class="container">
-       <div class="row">
-         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-           <div class="site-heading list-heading">
-             <h1>test</h1>
-             <hr class="small">
-             
-           </div>
-         </div>
-       </div>
-     </div>
-    </header>
 
-    
-    <div class="container pagination-center">
-      <div class="row post-row">
+<header class="intro-header m-header" style="background-image: url('https://bonghoonko.github.io//img/post-bg-1.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading list-heading">
+          <h1>test</h1>
+          <hr class="small">
           
-              <div class="post-preview col-lg-4 col-md-6">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="container pagination-center main-container">
+  <div class="row post-row">
+    
+    <div class="post-preview col-lg-4 col-md-6">
     <div class="post-preview__container">
       
       <a href="https://bonghoonko.github.io/post/t4/" class="preview-img__a">
@@ -127,11 +131,84 @@ Mon, May 27, 2019
     </div>
   </div>
 
+    
+  </div>
+  
+
+</div>
+
+
+
+
+
+<header class="intro-header sub-header" style="background-image: url('https://bonghoonko.github.io//img/post-bg-1.jpg')">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+        <div class="site-heading list-heading">
+          <h1>test</h1>
+          <hr class="small">
           
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+<div class="container-header sub-container-header container">
+  <div class="row">
+    <div class="col-sm-12">
+        <p class="recent-post">Recent Posts</p>
+        <div class="category-filter__wrap">
+          <div class="category-filter__txt" style="background-image:url('https://bonghoonko.github.io//img/ico-down.png');">Category
+              <ul class="category-list">
+                <div></div>
+                  
+                      
+                          <li style="list-style:none;"><a href="/tags/solution-service/"> - Solution-Service <small>(6)</small></a></li>
+                      
+                  
+                      
+                          <li style="list-style:none;"><a href="/tags/resource/"> - Resource <small>(5)</small></a></li>
+                      
+                  
+              </ul>
+          </div>
+        </div>
+    </div>
+  </div>
+</div>
+<div class="container sub-container">
+  <div class="row post-row">
+    
+    <div class="post-preview col-lg-4 col-md-6">
+        <div class="post-preview__container">
+          
+          <a href="https://bonghoonko.github.io/post/t4/" class="preview-img__a">
+            <img src="" alt="" class="post-thumb__img"/>
+          </a>
+          
+          <div class="post-preview__wrap">
+            
+            <a href="https://bonghoonko.github.io/post/t4/">
+              <h2 class="post-title">짧은 글</h2>
+              <h3 class="post-subtitle">한 줄 짜리 글</h3>
+            </a>
+            <div class="post-meta">
+              
+Mon, May 27, 2019
+<span class="author-name">BongHoon</span>
+
+
+
+            </div>
+          </div>
+        </div>
       </div>
       
-
-    </div>
+  </div>
+</div>
 
 <hr>
 <button class="btn-top" onclick="moveTop()">
@@ -261,6 +338,18 @@ Mon, May 27, 2019
     var maxHeight = Math.max.apply(null, heightArray);
     $(".post-row").css("height", maxHeight + 20 + "px");
   }
+
+  var headTitle = $(".list-heading h1").text();
+  var $con = $(".sub-container");
+  var $hd = $(".sub-header");
+  if(headTitle !== "Posts") {
+    $(".main-container, .m-header").remove();
+    $con.show();
+  }
+  else {
+    $con.remove();
+    $hd.remove();
+  }  
 </script>
 
 
