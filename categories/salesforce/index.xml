@@ -14,11 +14,11 @@
     
     <item>
       <title>Title</title>
-      <link>http://localhost:1313/posts/test/</link>
+      <link>http://localhost:1313/blog/new/</link>
       <pubDate>Thu, 17 Oct 2019 15:08:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description></description>
+      <guid>http://localhost:1313/blog/new/</guid>
+      <description>ddddddddddddddd</description>
     </item>
     
   </channel>

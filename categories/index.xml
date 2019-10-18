@@ -1,23 +1,86 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Start Bootstrap Clean Blog</title>
+    <title>Start Bootstrap Clean Blog</title>
     <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Start Bootstrap Clean Blog</description>
+    <description>Recent content on Start Bootstrap Clean Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Thu, 17 Oct 2019 15:08:32 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Oct 2019 15:12:20 +0900</lastBuildDate>
     
 	<atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Salesforce</title>
-      <link>http://localhost:1313/categories/salesforce/</link>
-      <pubDate>Thu, 17 Oct 2019 15:08:32 +0900</pubDate>
+      <title></title>
+      <link>http://localhost:1313/headless/</link>
+      <pubDate>Fri, 18 Oct 2019 15:12:20 +0900</pubDate>
       
-      <guid>http://localhost:1313/categories/salesforce/</guid>
+      <guid>http://localhost:1313/headless/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/resource/</link>
+      <pubDate>Fri, 18 Oct 2019 15:11:25 +0900</pubDate>
+      
+      <guid>http://localhost:1313/resource/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>111111111</title>
+      <link>http://localhost:1313/resource/resource2/</link>
+      <pubDate>Fri, 18 Oct 2019 14:27:54 +0900</pubDate>
+      
+      <guid>http://localhost:1313/resource/resource2/</guid>
+      <description>1111fdfdlf;dsmfl;</description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>http://localhost:1313/resource/resource1/</link>
+      <pubDate>Fri, 18 Oct 2019 14:21:24 +0900</pubDate>
+      
+      <guid>http://localhost:1313/resource/resource1/</guid>
+      <description>test</description>
+    </item>
+    
+    <item>
+      <title>123456</title>
+      <link>http://localhost:1313/headless/ones/</link>
+      <pubDate>Fri, 18 Oct 2019 14:18:01 +0900</pubDate>
+      
+      <guid>http://localhost:1313/headless/ones/</guid>
+      <description>123456</description>
+    </item>
+    
+    <item>
+      <title>22222</title>
+      <link>http://localhost:1313/headless/two/</link>
+      <pubDate>Fri, 18 Oct 2019 14:17:42 +0900</pubDate>
+      
+      <guid>http://localhost:1313/headless/two/</guid>
+      <description>22222</description>
+    </item>
+    
+    <item>
+      <title>Title</title>
+      <link>http://localhost:1313/headless/one/</link>
+      <pubDate>Fri, 18 Oct 2019 14:09:58 +0900</pubDate>
+      
+      <guid>http://localhost:1313/headless/one/</guid>
+      <description>Content</description>
+    </item>
+    
+    <item>
+      <title>Index Page</title>
+      <link>http://localhost:1313/posts/</link>
+      <pubDate>Fri, 18 Oct 2019 10:10:53 +0900</pubDate>
+      
+      <guid>http://localhost:1313/posts/</guid>
       <description></description>
     </item>
     

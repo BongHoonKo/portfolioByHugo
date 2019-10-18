@@ -2,33 +2,15 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Start Bootstrap Clean Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:1313/headless/</link>
     <description>Recent content on Start Bootstrap Clean Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Fri, 18 Oct 2019 14:27:54 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Oct 2019 15:12:20 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://localhost:1313/headless/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>111111111</title>
-      <link>http://localhost:1313/resource/resource2/</link>
-      <pubDate>Fri, 18 Oct 2019 14:27:54 +0900</pubDate>
-      
-      <guid>http://localhost:1313/resource/resource2/</guid>
-      <description>1111fdfdlf;dsmfl;</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>http://localhost:1313/resource/resource1/</link>
-      <pubDate>Fri, 18 Oct 2019 14:21:24 +0900</pubDate>
-      
-      <guid>http://localhost:1313/resource/resource1/</guid>
-      <description>test</description>
-    </item>
     
     <item>
       <title>123456</title>
@@ -55,15 +37,6 @@
       
       <guid>http://localhost:1313/headless/one/</guid>
       <description>Content</description>
-    </item>
-    
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/blog/new/</link>
-      <pubDate>Thu, 17 Oct 2019 15:08:32 +0900</pubDate>
-      
-      <guid>http://localhost:1313/blog/new/</guid>
-      <description>ddddddddddddddd</description>
     </item>
     
   </channel>
