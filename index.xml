@@ -1,68 +1,41 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Start Bootstrap Clean Blog</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on Start Bootstrap Clean Blog</description>
+    <title>Portfolio</title>
+    <link>https://bonghoonko.github.io/</link>
+    <description>Recent content on Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
     <lastBuildDate>Fri, 18 Oct 2019 14:27:54 +0900</lastBuildDate>
     
-	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bonghoonko.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>111111111</title>
-      <link>http://localhost:1313/resource/resource2/</link>
+      <link>https://bonghoonko.github.io/resource/resource2/</link>
       <pubDate>Fri, 18 Oct 2019 14:27:54 +0900</pubDate>
       
-      <guid>http://localhost:1313/resource/resource2/</guid>
+      <guid>https://bonghoonko.github.io/resource/resource2/</guid>
       <description>1111fdfdlf;dsmfl;</description>
     </item>
     
     <item>
       <title>test</title>
-      <link>http://localhost:1313/resource/resource1/</link>
+      <link>https://bonghoonko.github.io/resource/resource1/</link>
       <pubDate>Fri, 18 Oct 2019 14:21:24 +0900</pubDate>
       
-      <guid>http://localhost:1313/resource/resource1/</guid>
+      <guid>https://bonghoonko.github.io/resource/resource1/</guid>
       <description>test</description>
     </item>
     
     <item>
-      <title>123456</title>
-      <link>http://localhost:1313/headless/ones/</link>
-      <pubDate>Fri, 18 Oct 2019 14:18:01 +0900</pubDate>
-      
-      <guid>http://localhost:1313/headless/ones/</guid>
-      <description>123456</description>
-    </item>
-    
-    <item>
-      <title>22222</title>
-      <link>http://localhost:1313/headless/two/</link>
-      <pubDate>Fri, 18 Oct 2019 14:17:42 +0900</pubDate>
-      
-      <guid>http://localhost:1313/headless/two/</guid>
-      <description>22222</description>
-    </item>
-    
-    <item>
       <title>Title</title>
-      <link>http://localhost:1313/headless/one/</link>
-      <pubDate>Fri, 18 Oct 2019 14:09:58 +0900</pubDate>
-      
-      <guid>http://localhost:1313/headless/one/</guid>
-      <description>Content</description>
-    </item>
-    
-    <item>
-      <title>Title</title>
-      <link>http://localhost:1313/blog/new/</link>
+      <link>https://bonghoonko.github.io/blog/new/</link>
       <pubDate>Thu, 17 Oct 2019 15:08:32 +0900</pubDate>
       
-      <guid>http://localhost:1313/blog/new/</guid>
+      <guid>https://bonghoonko.github.io/blog/new/</guid>
       <description>ddddddddddddddd</description>
     </item>
     
