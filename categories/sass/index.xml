@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sass on Page</title>
+    <link>https://bonghoonko.github.io/categories/sass/</link>
+    <description>Recent content in Sass on Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <lastBuildDate>Mon, 01 Oct 2018 09:50:23 +0900</lastBuildDate>
+    
+	<atom:link href="https://bonghoonko.github.io/categories/sass/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>KSTAR ver 3.0</title>
+      <link>https://bonghoonko.github.io/posts/kstar3_0/</link>
+      <pubDate>Mon, 01 Oct 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/posts/kstar3_0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Contents Deal Intro</title>
+      <link>https://bonghoonko.github.io/posts/contentsdeal/</link>
+      <pubDate>Fri, 28 Sep 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/posts/contentsdeal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KSTAR SponsorDay</title>
+      <link>https://bonghoonko.github.io/posts/kstarsponsorday/</link>
+      <pubDate>Thu, 23 Aug 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/posts/kstarsponsorday/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>KSTAR ver 2.0</title>
+      <link>https://bonghoonko.github.io/posts/kstar2_0/</link>
+      <pubDate>Sun, 12 Aug 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/posts/kstar2_0/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STARPAY Main Page</title>
+      <link>https://bonghoonko.github.io/posts/starpay/</link>
+      <pubDate>Sun, 15 Jul 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/posts/starpay/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>STARCOIN Main Page</title>
+      <link>https://bonghoonko.github.io/posts/starcoin/</link>
+      <pubDate>Mon, 28 May 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/posts/starcoin/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

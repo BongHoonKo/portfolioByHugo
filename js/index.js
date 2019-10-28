@@ -38,5 +38,8 @@ let $port = {
         }
         let maxHeight = Math.max.apply(null, heightArray);
         $(".port-works__list").css("height", maxHeight + 20 + "px");
+    },
+    directLink : function(url) {
+        window.open(url);
     }
 };

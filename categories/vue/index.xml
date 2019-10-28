@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Vue on Page</title>
+    <link>https://bonghoonko.github.io/categories/vue/</link>
+    <description>Recent content in Vue on Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <lastBuildDate>Fri, 28 Sep 2018 09:50:23 +0900</lastBuildDate>
+    
+	<atom:link href="https://bonghoonko.github.io/categories/vue/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contents Deal Intro</title>
+      <link>https://bonghoonko.github.io/posts/contentsdeal/</link>
+      <pubDate>Fri, 28 Sep 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/posts/contentsdeal/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
