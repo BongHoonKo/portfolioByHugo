@@ -12,6 +12,18 @@ $(window).on("load resize", () => {
     }
 });
 
+$(window).on("scroll load resize", () => {
+    let mainHeight = $(".port-main__wrap").outerHeight();
+    let scrTop = $(document).scrollTop();
+    let $navBar = $(".navbar");
+    if(scrTop >= mainHeight) {
+        $navBar.addClass("changed");
+    }
+    else {
+        $navBar.removeClass("changed");
+    }
+});
+
 let $port = {
     postAlign : (num) => {
         /* 포스트 summary 정렬 관련 */

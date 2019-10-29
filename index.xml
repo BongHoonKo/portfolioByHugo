@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Fri, 18 Oct 2019 14:27:54 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 29 Oct 2019 17:51:54 +0900</lastBuildDate>
     
 	<atom:link href="https://bonghoonko.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Align Post</title>
+      <link>https://bonghoonko.github.io/resource/alignpost/</link>
+      <pubDate>Tue, 29 Oct 2019 17:51:54 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/resource/alignpost/</guid>
+      <description> HTML &amp;lt;article class=&amp;#34;port-works&amp;#34;&amp;gt; &amp;lt;ul class=&amp;#34;port-works__list&amp;#34;&amp;gt; &amp;lt;li&amp;gt;CONTENT&amp;lt;/li&amp;gt; ... &amp;lt;/ul&amp;gt; &amp;lt;/article&amp;gt; </description>
+    </item>
     
     <item>
       <title>111111111</title>
