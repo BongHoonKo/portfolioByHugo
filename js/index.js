@@ -28,7 +28,7 @@ let $port = {
     postAlign : (num) => {
         /* 포스트 summary 정렬 관련 */
         let heightArray = [];
-        let $targetElm = ".port-works__list > li:nth-of-type(";
+        let $targetElm = ".box-align__list > li:nth-of-type(";
         for (let i = 0; i < num ; i++) {
             let $box = $($targetElm + num +"n+" + i + ")");
             let boxTarget = $targetElm + num +"n+" + i + ")";
@@ -49,7 +49,7 @@ let $port = {
             heightArray.push(boxHeight);
         }
         let maxHeight = Math.max.apply(null, heightArray);
-        $(".port-works__list").css("height", maxHeight + 20 + "px");
+        $(".box-align__list").css("height", maxHeight + 20 + "px");
     },
     directLink : function(url) {
         window.open(url);

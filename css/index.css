@@ -428,6 +428,62 @@ html, body {
   border: 0;
 }
 
+.intro-header {
+  margin-top: 60px;
+  width: 100%;
+  min-height: 610px;
+  padding: 5rem 0;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 0;
+}
+
+.intro-header .intro-header__title {
+  font-size: 3rem;
+  color: #fefdfa;
+  font-weight: 900;
+}
+
+.intro-header .intro-header__title > em {
+  display: block;
+  font-size: 1rem;
+  opacity: 0.5;
+  font-weight: normal;
+}
+
+.intro-header .intro-header__txt {
+  font-size: 1rem;
+  color: #eaeaea;
+  word-break: keep-all;
+  opacity: 0.85;
+  margin-bottom: 2.5rem;
+}
+
+.intro-header .intro-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.intro-header .intro-box__img {
+  width: 525px;
+  opacity: 0.95;
+  position: relative;
+  z-index: -1;
+}
+
+/* Nav */
 .navbar {
   padding: 0.25rem 0;
   -webkit-transition-duration: 0.3s;
@@ -472,6 +528,18 @@ html, body {
           transition-duration: 0.3s;
 }
 
+.port-link__btn.white__btn {
+  border-color: #fefdfa;
+  color: #fefdfa;
+  background-color: transparent;
+  font-weight: normal;
+}
+
+.port-link__btn.white__btn:hover {
+  background-color: #fefdfa;
+  color: #5041b2;
+}
+
 .port-section {
   margin-bottom: 10rem;
 }
@@ -508,7 +576,7 @@ html, body {
   position: relative;
 }
 
-.port-main__wrap .port-main__back {
+.port-main__back {
   position: absolute;
   top: 0;
   left: 0;
@@ -519,7 +587,7 @@ html, body {
   background-repeat: no-repeat;
 }
 
-.port-main__wrap .port-main__back.gobong {
+.port-main__back.gobong {
   /*background-image: url(http://fotrise3.cafe24.com/resources/images/gobong-1.png);*/
   background-size: 500px;
   background-position: bottom right 30px;
@@ -537,6 +605,7 @@ html, body {
   font-size: 3.5rem;
   font-weight: 900;
   text-indent: -10px;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
 }
 
 .port-main .port-main__title > strong {
@@ -549,6 +618,7 @@ html, body {
   margin-bottom: 1.25rem;
   font-size: 1.25rem;
   margin-bottom: 2rem;
+  text-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
 }
 
 .port-main .port-main__box {
@@ -557,18 +627,6 @@ html, body {
   left: 0;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
-}
-
-.port-main .port-link__btn {
-  border-color: #fefdfa;
-  color: #fefdfa;
-  background-color: transparent;
-  font-weight: normal;
-}
-
-.port-main .port-link__btn:hover {
-  background-color: #fefdfa;
-  color: #5041b2;
 }
 
 .port-about {
@@ -673,13 +731,17 @@ html, body {
   color: #1a1527;
   font-weight: 900;
   font-size: 2rem;
-  margin-top: 0.5rem;
+  margin: 0.5rem 0;
   letter-spacing: -0.015em;
 }
 
 .port-works__list .port-works__post .post-subtitle {
   font-size: 1.1rem;
   color: #7a7a7a;
+}
+
+.port-works__list .port-works__post .post-data {
+  font-size: 1.1rem;
 }
 
 .port-works__list .port-works__img {
@@ -689,13 +751,17 @@ html, body {
   border: 1px solid #eaeaea;
 }
 
-.port-works__list .port-catrgory {
+.port-works__list .port-category {
   font-size: 0.8rem;
   padding: 0.25rem 0.5rem;
   color: #fff;
   background-color: #5041b2;
   border-radius: 4px;
   margin-right: 0.25rem;
+}
+
+.port-works__list .port-category:hover {
+  text-decoration: underline;
 }
 
 .port-works__list .fas.fa-share {
@@ -793,7 +859,7 @@ html, body {
 
 .port-subscribe .port-subscribe__input {
   width: 100%;
-  padding: 1.375rem;
+  padding: 1.375rem 2.5rem;
   padding-right: 10rem;
   border-radius: 300rem;
   border: 0;
@@ -818,4 +884,9 @@ html, body {
 .port-subscribe .port-subscribe__txt {
   font-size: 0.85rem;
   color: #7a7a7a;
+}
+
+.content-line pre {
+  letter-spacing: normal;
+  padding: 1rem 0;
 }
