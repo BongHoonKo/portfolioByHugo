@@ -77,6 +77,10 @@
         
     </nav>
 
+    <article class="port-loading__wrap">
+      
+    </article>
+
     <section class="port-main__wrap container-fluid port-section">
       <div class="port-main__back"></div>
       <div class="container">
@@ -102,31 +106,33 @@
         <div class="port-section__box row">
           <h3 class="port-section__title">ABOUT</h3>
           <hr class="port-section__bar"/>
-          <article class="port-about col-lg-10 col-lg-offset-1 col-xs-12">
+          <article class="col-lg-10 col-lg-offset-1 col-xs-12">
+            <div class="port-about">
             <div style="width:250px;height:250px;background-color:#9a9a9a;float:left;"></div>
-            <div class="port-about__box">
-              <h5 class="port-about__title">Profile</h5>
-              <ul class="port-about__list">
-                <li><em>이름</em> : 고봉훈</li>
-                <li><em>생년월일</em> : 1992.01.04</li>
-              </ul>
+              <div class="port-about__box">
+                <h5 class="port-about__title">Profile</h5>
+                <ul class="port-about__list">
+                  <li><em>이름</em> : 고봉훈</li>
+                  <li><em>생년월일</em> : 1992.01.04</li>
+                </ul>
 
-              <h5 class="port-about__title">Career &amp; Education</h5>
-              <ul class="port-about__list">
-                
-                  <li><em>2009. 02 : </em> 동래고등학교 졸업</li>
-                
-                  <li><em>2018. 02 : </em> 부산대학교 디자인학과 시각디자인전공(학사)</li>
-                
-                  <li><em>2017. 12 : </em> (주) RAON 홈페이지 퍼블리싱</li>
-                
-                  <li><em>2018. 01 : </em> (주) OPUS DESIGN 홈페이지 제작</li>
-                
-                  <li><em>2018. 05 ~ 2019. 01 : </em> (주) KSTARPAY 웹퍼블리시팀 매니저</li>
-                
-                  <li><em>2019. 04 ~ : </em> (주) DKBMC 개발1팀 퍼블리셔</li>
-                
-              </ul>
+                <h5 class="port-about__title">Career &amp; Education</h5>
+                <ul class="port-about__list">
+                  
+                    <li><em>2009. 02 : </em> 동래고등학교 졸업</li>
+                  
+                    <li><em>2018. 02 : </em> 부산대학교 디자인학과 시각디자인전공(학사)</li>
+                  
+                    <li><em>2017. 12 : </em> (주) RAON 홈페이지 퍼블리싱</li>
+                  
+                    <li><em>2018. 01 : </em> (주) OPUS DESIGN 홈페이지 제작</li>
+                  
+                    <li><em>2018. 05 ~ 2019. 01 : </em> (주) KSTARPAY 웹퍼블리시팀 매니저</li>
+                  
+                    <li><em>2019. 04 ~ : </em> (주) DKBMC 개발1팀 퍼블리셔</li>
+                  
+                </ul>
+              </div>
             </div>
           </article>
         </div>
@@ -169,7 +175,6 @@
                         </p>
                   </div>
               </li>
-
               
                                 <li class="col-lg-4 col-sm-6">
                   <div class="port-works-img__link">
@@ -190,7 +195,7 @@
 
                         </p>
                         <a href="https://bonghoonko.github.io/posts/dkbmc_support/">
-                          <h2 class="post-title">DK BMC 고객센터</h2>
+                          <h2 class="post-title">DKBMC 고객센터</h2>
                           <h3 class="post-subtitle">DK BMC의 Salesforce org와 연동하여 고객의 문의를 주고받을 수 있는 고객센터 페이지 퍼블리싱을 전담하였습니다.</h3>
                         </a>
                         <br/>
@@ -199,7 +204,6 @@
                         </p>
                   </div>
               </li>
-
               
                                 <li class="col-lg-4 col-sm-6">
                   <div class="port-works-img__link">
@@ -220,7 +224,7 @@
 
                         </p>
                         <a href="https://bonghoonko.github.io/posts/dkbmc_biz/">
-                          <h2 class="post-title">DK BMC 비즈니스 블로그</h2>
+                          <h2 class="post-title">DKBMC 비즈니스 블로그</h2>
                           <h3 class="post-subtitle">DK BMC의 비즈니스 관련 포스트를 업로드하기 위한 비즈니스 블로그 개발</h3>
                         </a>
                         <br/>
@@ -229,7 +233,6 @@
                         </p>
                   </div>
               </li>
-
               
                                 <li class="col-lg-4 col-sm-6">
                   <div class="port-works-img__link">
@@ -259,7 +262,6 @@
                         </p>
                   </div>
               </li>
-
               
                                 <li class="col-lg-4 col-sm-6">
                   <div class="port-works-img__link">
@@ -289,7 +291,6 @@
                         </p>
                   </div>
               </li>
-
               
                                 <li class="col-lg-4 col-sm-6">
                   <div class="port-works-img__link">
@@ -319,7 +320,6 @@
                         </p>
                   </div>
               </li>
-
               
             </ul>
             <a class="port-link__btn" href="https://bonghoonko.github.io/posts/">View More</a>
@@ -335,44 +335,76 @@
           <div class="port-skill">
             <ul class="port-skill__list">
               
-                <li>
-                  <i class="port-skill__range">25 %</i>
-                  TEST
+                <li class="col-lg-4 col-sm-6 col-xs-12">
+                  <i class="port-skill__range c100 p85 small">
+                    <span>85%</span>
+                    <div class="slice">
+                      <div class="bar" style="border-color:#307bbb;"></div>
+                      <div class="fill" style="border-color:#307bbb;"></div>
+                    </div>
+                  </i>
+                  <h4 class="port-skill__title">HTML &amp; CSS</h4>
+                  <p class="port-skill__txt">HTML, CSS 하드코딩이 가능하며, 다양한 사이즈의 스마트폰, 테블릿, PC에 맞게 레이아웃과 디자인이 변하고 움직이는 반응형 웹(미디어쿼리) 제작가능합니다</p>
                 </li>
               
-                <li>
-                  <i class="port-skill__range">50 %</i>
-                  SSIBAL
+                <li class="col-lg-4 col-sm-6 col-xs-12">
+                  <i class="port-skill__range c100 p65 small">
+                    <span>65%</span>
+                    <div class="slice">
+                      <div class="bar" style="border-color:#ffbd51;"></div>
+                      <div class="fill" style="border-color:#ffbd51;"></div>
+                    </div>
+                  </i>
+                  <h4 class="port-skill__title">Javascript &amp; jQuery</h4>
+                  <p class="port-skill__txt">스크롤효과, 애니메이션 등 각 종 스크립트 효과를 이용한 동적인 웹 코딩이 가능하며, 플러그인 활용이 가능합니다</p>
                 </li>
               
-                <li>
-                  <i class="port-skill__range">50 %</i>
-                  SSIBAL
+                <li class="col-lg-4 col-sm-6 col-xs-12">
+                  <i class="port-skill__range c100 p70 small">
+                    <span>70%</span>
+                    <div class="slice">
+                      <div class="bar" style="border-color:#c6538c;"></div>
+                      <div class="fill" style="border-color:#c6538c;"></div>
+                    </div>
+                  </i>
+                  <h4 class="port-skill__title">Sass</h4>
+                  <p class="port-skill__txt">Sass를 이용하여 자주쓰는 속성을 변수,믹스인으로 만들어 이용 가능하며, 모듈화를 통한 유지·보수에 용이한 스타일 코딩이 가능합니다</p>
                 </li>
               
-                <li>
-                  <i class="port-skill__range">50 %</i>
-                  SSIBAL
+                <li class="col-lg-4 col-sm-6 col-xs-12">
+                  <i class="port-skill__range c100 p65 small">
+                    <span>65%</span>
+                    <div class="slice">
+                      <div class="bar" style="border-color:#181b70;"></div>
+                      <div class="fill" style="border-color:#181b70;"></div>
+                    </div>
+                  </i>
+                  <h4 class="port-skill__title">Photoshop &amp; Illustrator</h4>
+                  <p class="port-skill__txt">그래픽 툴을 이용하여 간단한 웹 배너, 아이콘 등과 같은 그래픽 제작 및 수정이 가능합니다</p>
                 </li>
               
-                <li>
-                  <i class="port-skill__range">50 %</i>
-                  SSIBAL
+                <li class="col-lg-4 col-sm-6 col-xs-12">
+                  <i class="port-skill__range c100 p40 small">
+                    <span>40%</span>
+                    <div class="slice">
+                      <div class="bar" style="border-color:#009688;"></div>
+                      <div class="fill" style="border-color:#009688;"></div>
+                    </div>
+                  </i>
+                  <h4 class="port-skill__title">Hugo</h4>
+                  <p class="port-skill__txt">Static Web Page에 최적화된 프레임워크인 Hugo를 이용한, 깃헙페이지 블로그 제작 경험이 있습니다</p>
                 </li>
               
-                <li>
-                  <i class="port-skill__range">50 %</i>
-                  SSIBAL
-                </li>
-              
-                <li>
-                  <i class="port-skill__range">50 %</i>
-                  SSIBAL
-                </li>
-              
-                <li>
-                  <i class="port-skill__range">50 %</i>
-                  SSIBAL
+                <li class="col-lg-4 col-sm-6 col-xs-12">
+                  <i class="port-skill__range c100 p15 small">
+                    <span>15%</span>
+                    <div class="slice">
+                      <div class="bar" style="border-color:#563d7c;"></div>
+                      <div class="fill" style="border-color:#563d7c;"></div>
+                    </div>
+                  </i>
+                  <h4 class="port-skill__title">Vue &amp; React</h4>
+                  <p class="port-skill__txt">퍼블리싱이 가능한 프론트엔드 웹 개발자를 목표로 하여 자바스크립트 프레임워크 React.js와 Vue.js를 틈틈히 공부하고 있습니다</p>
                 </li>
               
             </ul>
@@ -390,42 +422,17 @@
             <h4 class="port-subscribe__title">
               How to Subscribe my portfolio
             </h4>
-            <form class="port-subscribe__form col-xs-8 col-xs-offset-2">
+            <form class="port-subscribe__form col-xs-12 col-md-8 col-md-offset-2">
               <input type="email" class="port-subscribe__input" placeholder="EMIAL ADDRESS"/>
               <a href="javascript:void(0)" class="port-subscribe__btn">Subscribe</a>
             </form>
-            <p class="port-subscribe__txt">
+            <p class="port-subscribe__txt col-xs-12">
               * 새로운 포트폴리오가 업로드 되었을 때, 입력한 메일로 소식을 받을 수 있습니다
             </p>
           </div>
         </div>
     </section>
 
-    
-    
-      Olympus 엑셀형 견적서 페이지
-    
-      DK BMC 고객센터
-    
-      DK BMC 비즈니스 블로그
-    
-      DKBMC 기술블로그
-    
-      KSTAR ver 3.0
-    
-      Contents Deal Intro
-    
-      KSTAR SponsorDay
-    
-      KSTAR ver 2.0
-    
-      STARPAY Main Page
-    
-      STARCOIN Main Page
-    
-      OPUS Design
-    
-      Raon
     
 
     

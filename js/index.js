@@ -1,3 +1,6 @@
+$(window).on("load", () => {
+    $port.hideLoading();
+});
 $(window).on("load resize", () => {
     let winWidth = window.innerWidth;
     if(winWidth <= 1199) {
@@ -53,5 +56,20 @@ let $port = {
     },
     directLink : function(url) {
         window.open(url);
+    },
+    hideLoading : function() {
+        setTimeout(function(){
+            let loadingWrap = $(".port-loading__wrap");
+            let mainHeight = $(".port-main__wrap").height();
+            loadingWrap.height(mainHeight);
+            window.top.scrollTo(0,0);
+            setTimeout(function(){
+                loadingWrap.fadeOut(300);
+            },500);
+            setTimeout(function(){
+                $(".port-main__box").css("opacity","1");
+                $("body").addClass("scrollable");
+            },1000);
+        },500);
     }
 };
