@@ -6,3 +6,7 @@
     url("https://db.onlinewebfonts.com/t/7b39518476d7eda112e77093f1414d9c.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
     url("https://db.onlinewebfonts.com/t/7b39518476d7eda112e77093f1414d9c.svg#LG Smart") format("svg"); /* iOS 4.1- */
 }
+
+@font-face {font-family: "LGSmart";
+    src: url("https://db.onlinewebfonts.com/t/7b39518476d7eda112e77093f1414d9c.ttf") format("truetype"),
+}
