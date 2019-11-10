@@ -1,6 +1,7 @@
 $(window).on("load", () => {
     $port.hideLoading();
 });
+
 $(window).on("load resize", () => {
     let winWidth = window.innerWidth;
     if(winWidth <= 1199) {
@@ -68,7 +69,7 @@ let $port = {
             },500);
             setTimeout(function(){
                 $(".port-main__box").css("opacity","1");
-                $("body").addClass("scrollable");
+                $("body.home-body").addClass("scrollable");
             },1000);
         },500);
     }
