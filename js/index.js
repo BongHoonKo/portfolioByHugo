@@ -66,11 +66,13 @@ let $port = {
             window.top.scrollTo(0,0);
             setTimeout(function(){
                 loadingWrap.fadeOut(300);
-            },500);
+            },300);
             setTimeout(function(){
                 $(".port-main__box").css("opacity","1");
                 $("body.home-body").addClass("scrollable");
             },1000);
+
+            $(".port-main__back.gobong").addClass('active');
         },500);
     }
 };
