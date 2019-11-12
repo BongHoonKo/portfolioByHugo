@@ -1,5 +1,8 @@
 $(window).on("load", () => {
     $port.hideLoading();
+    setTimeout(function(){
+        $(".port-main .animate-slide").addClass("animated");
+    },2000);
 });
 
 $(window).on("load resize", () => {
@@ -25,6 +28,16 @@ $(window).on("scroll load resize", () => {
     }
     else {
         $navBar.removeClass("changed");
+    }
+
+    if(scrTop >= 500) {
+        $(".port-about__list .animate-stick").addClass("animated");
+    }
+    if(scrTop >= 1200) {
+        $(".port-works .animate-skew").addClass("animated");
+    }
+    if(scrTop >= 2550) {
+        $(".port-skill .animate-drop").addClass("animated");
     }
 });
 
@@ -64,6 +77,7 @@ let $port = {
             let mainHeight = $(".port-main__wrap").height();
             loadingWrap.height(mainHeight);
             window.top.scrollTo(0,0);
+            $(".animated").removeClass("animated");
             setTimeout(function(){
                 loadingWrap.fadeOut(300);
             },300);
