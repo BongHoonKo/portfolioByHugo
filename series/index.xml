@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Series on Page</title>
+    <link>https://bonghoonko.github.io/series/</link>
+    <description>Recent content in Series on Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <lastBuildDate>Fri, 22 Nov 2019 09:50:23 +0900</lastBuildDate>
+    
+	<atom:link href="https://bonghoonko.github.io/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Github Page</title>
+      <link>https://bonghoonko.github.io/series/github-page/</link>
+      <pubDate>Fri, 22 Nov 2019 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/series/github-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React.js</title>
+      <link>https://bonghoonko.github.io/series/react.js/</link>
+      <pubDate>Fri, 22 Nov 2019 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/series/react.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>series Test</title>
+      <link>https://bonghoonko.github.io/series/series-test/</link>
+      <pubDate>Tue, 29 Oct 2019 17:51:54 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/series/series-test/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>test</title>
+      <link>https://bonghoonko.github.io/series/test/</link>
+      <pubDate>Tue, 29 Oct 2019 17:51:54 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/series/test/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

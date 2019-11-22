@@ -6,16 +6,13 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
+    <meta name="description" content="React 앱을 개인 Github 페이지에 배포하는 방법 정리">
     <meta name="author" content="[]">
     <meta name="keywords" content="">
 
 
     <title>Page</title>
 
-    
-    <link href="https://bonghoonko.github.io/resource/index.xml" rel="alternate" type="application/rss+xml" title="Page" />
-    <link href="https://bonghoonko.github.io/resource/index.xml" rel="feed" type="application/rss+xml" title="Page" />
     
 
     
@@ -75,65 +72,101 @@
         </div>
         
     </nav>
-    
-    
+  
+      
+      <article class="port-memo__content">
+          <div class="container content-line">
+              <div class="row">
+                  <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
 
-    
-    
-    <div class="container list-container">
-      <div class="row">
-          <h3 class="port-section__title">MEMO</h3>
-          <hr class="port-section__bar">
-          <br/>
-        <div class="col-xs-8 col-xs-offset-2 port-memo">
-          <ul class="port-memo__list">
-            
-                <li class="col-xs-12">
-        <div class="port-memo__post">
-          <a href="https://bonghoonko.github.io/resource/reactdeploy/">
-            <h2 class="post-title">React App GitHub 페이지 배포하기</h2>
-            <h3 class="post-subtitle">React 앱을 개인 Github 페이지에 배포하는 방법 정리</h3>
-          </a>
-          <p class="post-meta">
-                  
-        <a class="port-category" href="https://bonghoonko.github.io/series/react.js">React.js</a>
-    
-        <a class="port-category" href="https://bonghoonko.github.io/series/github-page">Github Page</a>
-    
-            </p>
-          <p class="post-date">
-              Fri, Nov 22, 2019
-          </p>
-        </div>
-      </li>
-            
-                <li class="col-xs-12">
-        <div class="port-memo__post">
-          <a href="https://bonghoonko.github.io/resource/alignpost/">
-            <h2 class="post-title">Align Post</h2>
-            <h3 class="post-subtitle">Blog에서 이용한 블로그 포스트 정렬 코드 정리</h3>
-          </a>
-          <p class="post-meta">
-                  
-        <a class="port-category" href="https://bonghoonko.github.io/series/test">test</a>
-    
-        <a class="port-category" href="https://bonghoonko.github.io/series/series-test">series Test</a>
-    
-            </p>
-          <p class="post-date">
-              Tue, Oct 29, 2019
-          </p>
-        </div>
-      </li>
-            
-          </ul>
-          
+<!-- 게시글 내용 -->
 
-        </div>
-      </div>
-    </div>
+<h3 id="1-package-json-파일-하단에-hompage-http-깃헙주소-저장소-추가">1. package.json 파일 하단에 <strong>&ldquo;hompage&rdquo;:&ldquo;http://깃헙주소/저장소&rdquo;</strong> 추가</h3>
 
-    <hr>
+<hr />
+
+<p>-package.json-</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript">    ...
+
+    <span style="color:#e6db74">&#34;browserslist&#34;</span><span style="color:#f92672">:</span> {
+    <span style="color:#e6db74">&#34;production&#34;</span><span style="color:#f92672">:</span> [
+      <span style="color:#e6db74">&#34;&gt;0.2%&#34;</span>,
+      <span style="color:#e6db74">&#34;not dead&#34;</span>,
+      <span style="color:#e6db74">&#34;not op_mini all&#34;</span>
+    ],
+    <span style="color:#e6db74">&#34;development&#34;</span><span style="color:#f92672">:</span> [
+      <span style="color:#e6db74">&#34;last 1 chrome version&#34;</span>,
+      <span style="color:#e6db74">&#34;last 1 firefox version&#34;</span>,
+      <span style="color:#e6db74">&#34;last 1 safari version&#34;</span>
+    ]
+  },
+
+  <span style="color:#e6db74">&#34;homepage&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;https://BongHoonKo.github.io/ReactApp_K&#34;</span>
+</code></pre></div>
+
+<p><br/><br/></p>
+
+<h3 id="2-yarn-add-dev-gh-pages">2. yarn add &ndash;dev gh-pages</h3>
+
+<hr />
+
+<p>-cmd-</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Batchfile" data-lang="Batchfile"> &gt; yarn add --dev gh-pages</code></pre></div>
+
+<p><br/><br/></p>
+
+<h3 id="3-predeploy-yarn-build-deploy-gh-pages-d-build-추가">3. <strong>&ldquo;predeploy&rdquo;:&ldquo;yarn build&rdquo; , &ldquo;deploy&rdquo;:&ldquo;gh-pages -d build&rdquo; 추가</strong></h3>
+
+<hr />
+
+<p>-package.json-</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-JavaScript" data-lang="JavaScript">    ...
+
+    <span style="color:#e6db74">&#34;scripts&#34;</span><span style="color:#f92672">:</span> {
+    <span style="color:#e6db74">&#34;start&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;react-scripts start&#34;</span>,
+    <span style="color:#e6db74">&#34;build&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;react-scripts build&#34;</span>,
+    <span style="color:#e6db74">&#34;test&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;react-scripts test&#34;</span>,
+    <span style="color:#e6db74">&#34;eject&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;react-scripts eject&#34;</span>,
+
+    <span style="color:#e6db74">&#34;predeploy&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;yarn build&#34;</span>,
+    <span style="color:#e6db74">&#34;deploy&#34;</span><span style="color:#f92672">:</span> <span style="color:#e6db74">&#34;gh-pages -d build&#34;</span>
+
+  },
+</code></pre></div>
+
+<p><br/><br/></p>
+
+<h3 id="4-github-연결">4. github 연결</h3>
+
+<hr />
+
+<p>-cmd-</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Batchfile" data-lang="Batchfile"> &gt; git remote add origin https://github.com/BongHoonKo/ReactApp_K.git
+
+ &gt; git push -u origin master</code></pre></div>
+
+<p><br/><br/></p>
+
+<h3 id="5-배포">5. 배포</h3>
+
+<hr />
+
+<p>-cmd-</p>
+
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-Batchfile" data-lang="Batchfile"> &gt; yarn run deploy</code></pre></div>
+
+                    
+                  </div>
+              </div>
+          </div>
+      </article>
+
+      <hr>
     
     <footer>
         <div class="container">
@@ -213,4 +246,3 @@ if (!doNotTrack) {
 </body>
 
 </html>
-

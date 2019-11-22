@@ -1,59 +1,95 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Page</title>
+    <title>Categories on Page</title>
     <link>https://bonghoonko.github.io/categories/</link>
-    <description>Recent content on Page</description>
+    <description>Recent content in Categories on Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Tue, 29 Oct 2019 17:51:54 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 18 Oct 2019 15:19:46 +0900</lastBuildDate>
     
 	<atom:link href="https://bonghoonko.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Align Post</title>
-      <link>https://bonghoonko.github.io/resource/alignpost/</link>
-      <pubDate>Tue, 29 Oct 2019 17:51:54 +0900</pubDate>
-      
-      <guid>https://bonghoonko.github.io/resource/alignpost/</guid>
-      <description>.box-align__list { width: 100%; position: relative; text-align: center; } .box-align__list  li { position: absolute; top: 0; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; padding-bottom: 30px; } .box-align__list  li:first-child .box-align__content { height: 180px; } .box-align__list  li:nth-child(2) .box-align__content { height: 300px; } .box-align__list  li:nth-child(3) .box-align__content { height: 250px; } .box-align__list  li:nth-child(4) .box-align__content { height: 400px; } .box-align__list  li:nth-child(5) .box-align__content { height: 250px; } .box-align__list  li:last-child .box-align__content { height: 200px; } .</description>
-    </item>
-    
-    <item>
       <title></title>
-      <link>https://bonghoonko.github.io/resource/</link>
+      <link>https://bonghoonko.github.io/categories/</link>
       <pubDate>Fri, 18 Oct 2019 15:19:46 +0900</pubDate>
       
-      <guid>https://bonghoonko.github.io/resource/</guid>
+      <guid>https://bonghoonko.github.io/categories/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>111111111</title>
-      <link>https://bonghoonko.github.io/resource/resource2/</link>
-      <pubDate>Fri, 18 Oct 2019 14:27:54 +0900</pubDate>
+      <title>html &amp; css</title>
+      <link>https://bonghoonko.github.io/categories/html-css/</link>
+      <pubDate>Tue, 01 Oct 2019 09:50:23 +0900</pubDate>
       
-      <guid>https://bonghoonko.github.io/resource/resource2/</guid>
-      <description>1111fdfdlf;dsmfl;</description>
+      <guid>https://bonghoonko.github.io/categories/html-css/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>test</title>
-      <link>https://bonghoonko.github.io/resource/resource1/</link>
-      <pubDate>Fri, 18 Oct 2019 14:21:24 +0900</pubDate>
+      <title>jExcel</title>
+      <link>https://bonghoonko.github.io/categories/jexcel/</link>
+      <pubDate>Tue, 01 Oct 2019 09:50:23 +0900</pubDate>
       
-      <guid>https://bonghoonko.github.io/resource/resource1/</guid>
-      <description>test</description>
+      <guid>https://bonghoonko.github.io/categories/jexcel/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Works</title>
-      <link>https://bonghoonko.github.io/posts/</link>
-      <pubDate>Fri, 18 Oct 2019 10:10:53 +0900</pubDate>
+      <title>jQuery</title>
+      <link>https://bonghoonko.github.io/categories/jquery/</link>
+      <pubDate>Tue, 01 Oct 2019 09:50:23 +0900</pubDate>
       
-      <guid>https://bonghoonko.github.io/posts/</guid>
+      <guid>https://bonghoonko.github.io/categories/jquery/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visualforce</title>
+      <link>https://bonghoonko.github.io/categories/visualforce/</link>
+      <pubDate>Fri, 23 Aug 2019 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/categories/visualforce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub Page</title>
+      <link>https://bonghoonko.github.io/categories/github-page/</link>
+      <pubDate>Tue, 11 Jun 2019 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/categories/github-page/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>https://bonghoonko.github.io/categories/hugo/</link>
+      <pubDate>Tue, 11 Jun 2019 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/categories/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Sass</title>
+      <link>https://bonghoonko.github.io/categories/sass/</link>
+      <pubDate>Mon, 01 Oct 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/categories/sass/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vue</title>
+      <link>https://bonghoonko.github.io/categories/vue/</link>
+      <pubDate>Fri, 28 Sep 2018 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/categories/vue/</guid>
       <description></description>
     </item>
     

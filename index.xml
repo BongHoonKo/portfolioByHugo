@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Tue, 29 Oct 2019 17:51:54 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 09:50:23 +0900</lastBuildDate>
     
 	<atom:link href="https://bonghoonko.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>React App GitHub 페이지 배포하기</title>
+      <link>https://bonghoonko.github.io/resource/reactdeploy/</link>
+      <pubDate>Fri, 22 Nov 2019 09:50:23 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/resource/reactdeploy/</guid>
+      <description>1. package.json 파일 하단에 &amp;ldquo;hompage&amp;rdquo;:&amp;ldquo;http://깃헙주소/저장소&amp;rdquo; 추가 -package.json-
+... &amp;#34;browserslist&amp;#34;: { &amp;#34;production&amp;#34;: [ &amp;#34;&amp;gt;0.2%&amp;#34;, &amp;#34;not dead&amp;#34;, &amp;#34;not op_mini all&amp;#34; ], &amp;#34;development&amp;#34;: [ &amp;#34;last 1 chrome version&amp;#34;, &amp;#34;last 1 firefox version&amp;#34;, &amp;#34;last 1 safari version&amp;#34; ] }, &amp;#34;homepage&amp;#34;: &amp;#34;https://BongHoonKo.github.io/ReactApp_K&amp;#34;  
+2. yarn add &amp;ndash;dev gh-pages -cmd-
+&amp;gt; yarn add --dev gh-pages 
+3. &amp;ldquo;predeploy&amp;rdquo;:&amp;ldquo;yarn build&amp;rdquo; , &amp;ldquo;deploy&amp;rdquo;:&amp;ldquo;gh-pages -d build&amp;rdquo; 추가 -package.json-
+... &amp;#34;scripts&amp;#34;: { &amp;#34;start&amp;#34;: &amp;#34;react-scripts start&amp;#34;, &amp;#34;build&amp;#34;: &amp;#34;react-scripts build&amp;#34;, &amp;#34;test&amp;#34;: &amp;#34;react-scripts test&amp;#34;, &amp;#34;eject&amp;#34;: &amp;#34;react-scripts eject&amp;#34;, &amp;#34;predeploy&amp;#34;: &amp;#34;yarn build&amp;#34;, &amp;#34;deploy&amp;#34;: &amp;#34;gh-pages -d build&amp;#34; },</description>
+    </item>
     
     <item>
       <title>Align Post</title>
@@ -19,24 +33,6 @@
       
       <guid>https://bonghoonko.github.io/resource/alignpost/</guid>
       <description>.box-align__list { width: 100%; position: relative; text-align: center; } .box-align__list  li { position: absolute; top: 0; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; padding-bottom: 30px; } .box-align__list  li:first-child .box-align__content { height: 180px; } .box-align__list  li:nth-child(2) .box-align__content { height: 300px; } .box-align__list  li:nth-child(3) .box-align__content { height: 250px; } .box-align__list  li:nth-child(4) .box-align__content { height: 400px; } .box-align__list  li:nth-child(5) .box-align__content { height: 250px; } .box-align__list  li:last-child .box-align__content { height: 200px; } .</description>
-    </item>
-    
-    <item>
-      <title>111111111</title>
-      <link>https://bonghoonko.github.io/resource/resource2/</link>
-      <pubDate>Fri, 18 Oct 2019 14:27:54 +0900</pubDate>
-      
-      <guid>https://bonghoonko.github.io/resource/resource2/</guid>
-      <description>1111fdfdlf;dsmfl;</description>
-    </item>
-    
-    <item>
-      <title>test</title>
-      <link>https://bonghoonko.github.io/resource/resource1/</link>
-      <pubDate>Fri, 18 Oct 2019 14:21:24 +0900</pubDate>
-      
-      <guid>https://bonghoonko.github.io/resource/resource1/</guid>
-      <description>test</description>
     </item>
     
     <item>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Page</title>
-    <link>https://bonghoonko.github.io/resource/</link>
-    <description>Recent content on Page</description>
+    <title>React.js on Page</title>
+    <link>https://bonghoonko.github.io/series/react.js/</link>
+    <description>Recent content in React.js on Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Fri, 18 Oct 2019 15:19:46 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 22 Nov 2019 09:50:23 +0900</lastBuildDate>
     
-	<atom:link href="https://bonghoonko.github.io/resource/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://bonghoonko.github.io/series/react.js/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -24,15 +24,6 @@
 &amp;gt; yarn add --dev gh-pages 
 3. &amp;ldquo;predeploy&amp;rdquo;:&amp;ldquo;yarn build&amp;rdquo; , &amp;ldquo;deploy&amp;rdquo;:&amp;ldquo;gh-pages -d build&amp;rdquo; 추가 -package.json-
 ... &amp;#34;scripts&amp;#34;: { &amp;#34;start&amp;#34;: &amp;#34;react-scripts start&amp;#34;, &amp;#34;build&amp;#34;: &amp;#34;react-scripts build&amp;#34;, &amp;#34;test&amp;#34;: &amp;#34;react-scripts test&amp;#34;, &amp;#34;eject&amp;#34;: &amp;#34;react-scripts eject&amp;#34;, &amp;#34;predeploy&amp;#34;: &amp;#34;yarn build&amp;#34;, &amp;#34;deploy&amp;#34;: &amp;#34;gh-pages -d build&amp;#34; },</description>
-    </item>
-    
-    <item>
-      <title>Align Post</title>
-      <link>https://bonghoonko.github.io/resource/alignpost/</link>
-      <pubDate>Tue, 29 Oct 2019 17:51:54 +0900</pubDate>
-      
-      <guid>https://bonghoonko.github.io/resource/alignpost/</guid>
-      <description>.box-align__list { width: 100%; position: relative; text-align: center; } .box-align__list  li { position: absolute; top: 0; -webkit-transition-duration: 0.3s; transition-duration: 0.3s; padding-bottom: 30px; } .box-align__list  li:first-child .box-align__content { height: 180px; } .box-align__list  li:nth-child(2) .box-align__content { height: 300px; } .box-align__list  li:nth-child(3) .box-align__content { height: 250px; } .box-align__list  li:nth-child(4) .box-align__content { height: 400px; } .box-align__list  li:nth-child(5) .box-align__content { height: 250px; } .box-align__list  li:last-child .box-align__content { height: 200px; } .</description>
     </item>
     
   </channel>
