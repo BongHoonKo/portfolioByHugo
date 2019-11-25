@@ -6,11 +6,38 @@
     <description>Recent content in Series on Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Code released under the Apache 2.0 license.</copyright>
-    <lastBuildDate>Fri, 22 Nov 2019 09:50:23 +0900</lastBuildDate>
+    <copyright>2019 Bong-Hoon Ko. all rights reserved.</copyright>
+    <lastBuildDate>Mon, 25 Nov 2019 16:59:18 +0900</lastBuildDate>
     
 	<atom:link href="https://bonghoonko.github.io/series/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>React.js</title>
+      <link>https://bonghoonko.github.io/series/react.js/</link>
+      <pubDate>Mon, 25 Nov 2019 16:59:18 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/series/react.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tip</title>
+      <link>https://bonghoonko.github.io/series/tip/</link>
+      <pubDate>Mon, 25 Nov 2019 16:59:18 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/series/tip/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>react-router-dom</title>
+      <link>https://bonghoonko.github.io/series/react-router-dom/</link>
+      <pubDate>Sun, 24 Nov 2019 11:12:42 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/series/react-router-dom/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Github Page</title>
@@ -18,15 +45,6 @@
       <pubDate>Fri, 22 Nov 2019 09:50:23 +0900</pubDate>
       
       <guid>https://bonghoonko.github.io/series/github-page/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>React.js</title>
-      <link>https://bonghoonko.github.io/series/react.js/</link>
-      <pubDate>Fri, 22 Nov 2019 09:50:23 +0900</pubDate>
-      
-      <guid>https://bonghoonko.github.io/series/react.js/</guid>
       <description></description>
     </item>
     

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>react-router-dom on Page</title>
+    <link>https://bonghoonko.github.io/series/react-router-dom/</link>
+    <description>Recent content in react-router-dom on Page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>2019 Bong-Hoon Ko. all rights reserved.</copyright>
+    <lastBuildDate>Sun, 24 Nov 2019 11:12:42 +0900</lastBuildDate>
+    
+	<atom:link href="https://bonghoonko.github.io/series/react-router-dom/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>React 라우터 세팅</title>
+      <link>https://bonghoonko.github.io/resource/reactrouter/</link>
+      <pubDate>Sun, 24 Nov 2019 11:12:42 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/resource/reactrouter/</guid>
+      <description>1. Install react-router-dom &amp;gt; npm install react-router-dom 
+2. HashRouter BrowserRouter, HashRouter 등 Router의 종류가 몇개 있지만, GitHub 페이지에 배포를 하려고하니, HashRouter를 통해 설정을 해야만 페이지가 정상적으로 렌더링 됐음.
+BrowserRouter와 HashRouter의 정확한 사용법에 관해서는 추후에 추가로 공부 예정
+ -App.js- import React , {Component} from &amp;#39;react&amp;#39;; import Main from &amp;#39;./Main&amp;#39;; import { HashRouter as Router } from &amp;#39;react-router-dom&amp;#39;; class App extends Component { render() { return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; &amp;lt;Router&amp;gt; &amp;lt;Main /&amp;gt; &amp;lt;/Router&amp;gt; &amp;lt;/div&amp;gt; ); } }</description>
+    </item>
+    
+  </channel>
+</rss>

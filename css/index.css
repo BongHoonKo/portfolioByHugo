@@ -1272,6 +1272,17 @@ body.home-body.scrollable {
   color: #5041b2;
 }
 
+.port-ft {
+  padding: 1rem 0;
+  border-top: 1px solid #ccc;
+  text-align: center;
+  background-color: #302a4b;
+}
+
+.port-ft .copyright {
+  color: #fbfcfd;
+}
+
 .port-link__btn {
   font-size: 1rem;
   font-weight: bold;
@@ -1326,6 +1337,14 @@ body.home-body.scrollable {
   position: relative;
 }
 
+@media all and (max-width: 768px) {
+  .port-main__wrap {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 100vh;
+  }
+}
+
 .port-main__wrap .row,
 .port-main__wrap > .container {
   height: 100%;
@@ -1344,6 +1363,7 @@ body.home-body.scrollable {
 }
 
 .port-main__back.gobong {
+  background-image: url(http://fotrise3.cafe24.com/resources/images/gobong-1.png);
   background-size: 525px;
   background-position: bottom right 30px;
   background-repeat: no-repeat;
@@ -1363,7 +1383,7 @@ body.home-body.scrollable {
 @media all and (max-width: 768px) {
   .port-main__back.gobong {
     background-size: 350px;
-    background-position: bottom right;
+    background-position: bottom right -30px;
   }
 }
 
@@ -1383,6 +1403,7 @@ body.home-body.scrollable {
 @media all and (max-width: 768px) {
   .port-main .port-main__title {
     text-indent: 0;
+    font-size: 3rem;
   }
 }
 
@@ -1401,6 +1422,12 @@ body.home-body.scrollable {
           transition-delay: 0.25s;
 }
 
+@media all and (max-width: 768px) {
+  .port-main .port-main__txt {
+    font-size: 1rem;
+  }
+}
+
 .port-main .port-main__box {
   position: absolute;
   top: 48%;
@@ -1414,7 +1441,9 @@ body.home-body.scrollable {
 
 @media all and (max-width: 768px) {
   .port-main .port-main__box {
-    top: 25%;
+    top: 30%;
+    padding-left: 15px;
+    padding-right: 15px;
   }
 }
 
@@ -1850,6 +1879,7 @@ body.home-body.scrollable {
 
 .list-container {
   margin-top: 8rem;
+  padding-bottom: 8rem;
 }
 
 .intro-header.single-header {
@@ -1858,6 +1888,10 @@ body.home-body.scrollable {
 
 .intro-header.single-header .intro-header__txt {
   max-width: 70%;
+}
+
+.content-line {
+  padding-bottom: 8.25rem;
 }
 
 .content-line img {
@@ -1879,6 +1913,12 @@ body.home-body.scrollable {
 .content-line hr {
   border-color: #5041b2;
   border-width: 3px;
+}
+
+.content-line blockquote {
+  border-left: 3px solid #8282DC;
+  padding: 0.5rem 1.25rem;
+  margin-top: 1rem;
 }
 
 .content-line .content-line__txt {
@@ -1918,6 +1958,36 @@ body.home-body.scrollable {
   margin-top: 60px;
 }
 
+.port-memo__content .port-memo__hd {
+  background: -webkit-gradient(linear, left top, right top, from(#2a295c), to(#8282dc));
+  background: linear-gradient(90deg, #2a295c, #8282dc);
+  padding: 6.25rem 0;
+  margin-bottom: 5rem;
+  text-align: center;
+  position: relative;
+}
+
+.port-memo__content .port-memo__hd .port-memo__title {
+  color: #fbfcfd;
+  font-size: 2.85rem;
+  font-weight: 900;
+}
+
+.port-memo__content .port-memo__hd .port-memo__description {
+  color: #fbfcfd;
+  font-size: 1rem;
+  opacity: 0.85;
+}
+
+.port-memo__content .port-memo__hd > hr {
+  width: 45px;
+  height: 3px;
+  background-color: #fbfcfd;
+  border-color: #fbfcfd;
+  opacity: 0.65;
+  margin-bottom: 1.5rem;
+}
+
 .port-memo__list > li {
   margin-bottom: 1.5rem;
 }
@@ -1927,6 +1997,14 @@ body.home-body.scrollable {
   border-radius: 4px;
   -webkit-box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
           box-shadow: 5px 5px 12px rgba(0, 0, 0, 0.25);
+  border-left: 8px solid #8282DC;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+.port-memo__post:hover {
+  -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
 }
 
 .port-memo__post .post-title {
@@ -1940,6 +2018,7 @@ body.home-body.scrollable {
 .port-memo__post .post-subtitle {
   font-size: 1rem;
   color: #666;
+  line-height: 1.5em;
 }
 
 .port-memo__post .post-meta {

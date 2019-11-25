@@ -6,11 +6,36 @@
     <description>Recent content on Page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Code released under the Apache 2.0 license.</copyright>
+    <copyright>2019 Bong-Hoon Ko. all rights reserved.</copyright>
     <lastBuildDate>Fri, 18 Oct 2019 15:19:46 +0900</lastBuildDate>
     
 	<atom:link href="https://bonghoonko.github.io/resource/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>React Tip 정리 1</title>
+      <link>https://bonghoonko.github.io/resource/reacttip1/</link>
+      <pubDate>Mon, 25 Nov 2019 16:59:18 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/resource/reacttip1/</guid>
+      <description>1. 조건에 따라 className 추가 &amp;lt;button className={&amp;#34;btn &amp;#34; + (this.state.btnActive ? &amp;#34;active&amp;#34; : &amp;#34;&amp;#34;)}&amp;gt; ...&amp;lt;/button&amp;gt; 
+2. map 반대로 {test.slice(0).reverse.map( data =&amp;gt; { ... })} 
+3. setState 완료 후 실행할 Callback 함수 설정 방법 this.setState({ test : &amp;#34;test&amp;#34; ... }, () =&amp;gt; { ...something }); 
+4. Event에 인자값 넘겨주기 &amp;lt;button onClick={ () =&amp;gt; this.btnClick(arg1, arg2) }&amp;gt; Click &amp;lt;/button&amp;gt; 
+5. render 안에서 Switch Statement 사용 render() { return ( &amp;lt;div&amp;gt; {( () =&amp;gt; { switch(test) { case 1 : return &amp;lt;Test1 /&amp;gt;; break; case 2 : return &amp;lt;Test2 /&amp;gt;; break; .</description>
+    </item>
+    
+    <item>
+      <title>React 라우터 세팅</title>
+      <link>https://bonghoonko.github.io/resource/reactrouter/</link>
+      <pubDate>Sun, 24 Nov 2019 11:12:42 +0900</pubDate>
+      
+      <guid>https://bonghoonko.github.io/resource/reactrouter/</guid>
+      <description>1. Install react-router-dom &amp;gt; npm install react-router-dom 
+2. HashRouter BrowserRouter, HashRouter 등 Router의 종류가 몇개 있지만, GitHub 페이지에 배포를 하려고하니, HashRouter를 통해 설정을 해야만 페이지가 정상적으로 렌더링 됐음.
+BrowserRouter와 HashRouter의 정확한 사용법에 관해서는 추후에 추가로 공부 예정
+ -App.js- import React , {Component} from &amp;#39;react&amp;#39;; import Main from &amp;#39;./Main&amp;#39;; import { HashRouter as Router } from &amp;#39;react-router-dom&amp;#39;; class App extends Component { render() { return ( &amp;lt;div className=&amp;#34;App&amp;#34;&amp;gt; &amp;lt;Router&amp;gt; &amp;lt;Main /&amp;gt; &amp;lt;/Router&amp;gt; &amp;lt;/div&amp;gt; ); } }</description>
+    </item>
     
     <item>
       <title>React App GitHub 페이지 배포하기</title>
