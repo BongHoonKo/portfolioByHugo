@@ -1441,7 +1441,7 @@ body.home-body.scrollable {
 
 @media all and (max-width: 768px) {
   .port-main .port-main__box {
-    top: 30%;
+    top: 25%;
     padding-left: 15px;
     padding-right: 15px;
   }
